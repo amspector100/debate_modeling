@@ -1,0 +1,137 @@
+Rk	name	category	team	R1	R2	R3	R4	R5	Total	Avg	Stdev
+1	Tejas Subramaniam		Stanford SZ	81	83	81	82	82	409	81.80	0.75
+2	Vivian Zhu		Stanford SZ	78	82	80	81	82	403	80.60	1.50
+3	Xiao-ke Lu		Princeton CL	78	82	80	81	81	402	80.40	1.36
+4=	Benny Nicholson		Hybrid NM	78	82	80	80	78	398	79.60	1.50
+4=	Uma Menon		Princeton ML	82	78	77	79	82	398	79.60	2.06
+6=	Isaac Cape		Princeton CL	76	80	79	81	81	397	79.40	1.85
+6=	Sreyan Kanungo		HWS KP	79	79	81	79	79	397	79.40	0.80
+6=	Nick Bayer		Duke BC	78	80	80	81	78	397	79.40	1.20
+9=	Wee-Ern Lau	Novice, ESL	Princeton LS	77	81	80	78	80	396	79.20	1.47
+9=	Jacquelynn Lin		Princeton ML	81	78	77	79	81	396	79.20	1.60
+11=	Ginige Janul Vinura De Silva	Novice, ESL	Princeton LS	77	80	81	78	79	395	79.00	1.41
+11=	Kayla Powers		HWS KP	78	81	81	77	78	395	79.00	1.67
+13	Abigel Manaye		Hybrid NM	79	80	80	78	77	394	78.80	1.17
+14	Mariana Icaza Diaz	ESL	Princeton AI	79	73	81	79	81	393	78.60	2.94
+15=	Harrison Cole		Duke BC	76	79	79	81	77	392	78.40	1.74
+15=	Fawaz Ahmad		Princeton AI	80	73	81	78	80	392	78.40	2.87
+15=	Srishti Ghosh		Princeton CG	78	81	79	75	79	392	78.40	1.96
+18	Ram Orfanel	ESL	Cornell CO	80	81	78	77	75	391	78.20	2.14
+19=	Nicholas Abernethy		Hybrid SA	78	75	79	80	78	390	78.00	1.67
+19=	Muhammad Dhafer		Stanford AC	77	78	79	81	75	390	78.00	2.00
+19=	Charles Ndlovu	ESL	Rochester NI	77	77	79	79	78	390	78.00	0.89
+22=	Stine Isak	ESL	Rochester NI	77	78	78	79	77	389	77.80	0.75
+22=	Veer Juneja	Novice	USC LJ	78	78	76	78	79	389	77.80	0.98
+22=	Manya Gupta		UPenn GL	77	78	80	77	77	389	77.80	1.17
+25=	Daniel B Svirsky		Hybrid SA	76	76	79	79	78	388	77.60	1.36
+25=	Allan Lee		UPenn GL	78	77	79	78	76	388	77.60	1.02
+25=	Lamia Nur Rahman	Novice, ESL	HWS RT	79	78	78	75	78	388	77.60	1.36
+28	Genevieve Cox		Princeton CG	78	79	78	75	77	387	77.40	1.36
+29	Malcolm Davis		Swarthmore BD	77	77	79	79	74	386	77.20	1.83
+30=	Ishaan Goel	ESL	UChicago GM	74	78	78	77	78	385	77.00	1.55
+30=	Anna Liu	Novice	USC LJ	75	78	75	78	79	385	77.00	1.67
+30=	Sandeep Tissaaratchy	Novice, ESL	HWS RT	78	76	79	75	77	385	77.00	1.41
+30=	Adithi Attada		Swarthmore ZA	77	77	76	79	76	385	77.00	1.10
+34=	Gian Luigi Zaninelli		Swarthmore ZA	75	77	76	80	76	384	76.80	1.72
+34=	Jinyoung Kim	Novice	Stanford KZ	78	72	78	77	79	384	76.80	2.48
+34=	Tori Qiu		Stanford QY	76	76	77	76	79	384	76.80	1.17
+34=	Cristian Carranza	Novice	Cornell CO	79	80	77	75	73	384	76.80	2.56
+34=	Ashley Ka	Novice	USC DK	78	76	77	77	76	384	76.80	0.75
+34=	Elizabeth Zhu		Stanford KZ	77	75	78	76	78	384	76.80	1.17
+34=	Afzal Hussain		Princeton HP	75	77	74	80	78	384	76.80	2.14
+41=	Yuwei Yang		Stanford QY	76	76	76	75	80	383	76.60	1.74
+41=	Bridget Grew		UVM GH	78	75	76	78	76	383	76.60	1.20
+41=	Adrián Cardona Young	Novice	SDEC CM	76	77	75	75	80	383	76.60	1.85
+44=	Matt Goodman		Middleburry MG	73	79	76	78	76	382	76.40	2.06
+44=	Harshitha Dasari	Novice	USC DK	77	74	78	78	75	382	76.40	1.62
+44=	Laura Jocelyn	Novice	Hybrid JH	75	77	77	77	76	382	76.40	0.80
+44=	Nam Nguyen		Middleburry MG	75	78	76	77	76	382	76.40	1.02
+44=	Michael Moran		UChicago GM	74	76	79	76	77	382	76.40	1.62
+49=	Phil Chabaneix		Stanford AC	77	76	76	80	72	381	76.20	2.56
+49=	Amalia Schneider	Novice	Cornell SE	73	78	77	77	76	381	76.20	1.72
+49=	Maggie Pierce	Novice	UVM SG	77	76	76	76	76	381	76.20	0.40
+52=	Rushika Prasad	Novice	SDEC PP	77	75	75	78	75	380	76.00	1.26
+52=	Emily Paulin		Princeton HP	74	76	74	80	76	380	76.00	2.19
+54=	Jake Bohman		Swarthmore BD	75	76	77	78	73	379	75.80	1.72
+54=	Jonathan Ebenezer		Cornell SE	75	76	76	76	76	379	75.80	0.40
+54=	Mo Islam		Cornell IK	75	73	77	78	76	379	75.80	1.72
+57=	Julian Henry		UVM GH	77	74	75	76	76	378	75.60	1.02
+57=	Benjamin Dokupil		Colgate PD	75	74	77	79	73	378	75.60	2.15
+57=	Andrew Barsky		HWS BR	75	76	74	76	77	378	75.60	1.02
+57=	Awa Haidara	Novice	Hybrid JH	75	76	75	77	75	378	75.60	0.80
+61	Cameron Patrick		Colgate PD	76	74	78	77	72	377	75.40	2.15
+62=	Clara Martorano		UVM SG	77	75	74	75	75	376	75.20	0.98
+62=	Anjalee Wanduragala	Novice	HWS MW	76	72	75	77	76	376	75.20	1.72
+62=	John (Jack) Hanson	Novice	HWS HM	74	75	73	76	78	376	75.20	1.72
+65=	Bally Warren	Novice	SDEC KW	74	75	74	76	76	375	75.00	0.89
+65=	Owen Spargo	Novice	Cornell SO	75	75	71	76	78	375	75.00	2.28
+65=	Ruben Flores	Novice	USC KF	77	75	75	77	71	375	75.00	2.19
+65=	Julia Van Neerrijnen	Novice, ESL	HWS VT	71	78	75	75	76	375	75.00	2.28
+65=	Maya Ratner	ESL	HWS BR	76	76	71	76	76	375	75.00	2.00
+70=	Nikolas Morel-Ferland	Novice, ESL	Sherbrooke MG	74	73	75	75	77	374	74.80	1.33
+70=	Kyle Mast	Novice	HWS HM	74	75	73	74	78	374	74.80	1.72
+72=	Pedro Pontes García	Novice, ESL	SDEC PP	74	74	74	77	74	373	74.60	1.20
+72=	Rachel Kussick		UVM KS	78	72	77	75	71	373	74.60	2.73
+72=	Milo Austin	Novice	Colgate AZ	73	75	76	73	76	373	74.60	1.36
+72=	Derek Lehman	Novice	USC LK	75	75	74	75	74	373	74.60	0.49
+72=	Ahad Kajani	Novice	USC KF	75	76	76	75	71	373	74.60	1.85
+72=	Hugo Kittell		USC LK	74	75	75	75	74	373	74.60	0.49
+78=	Juan De Maqua	Novice	SDEC CM	76	77	75	73	71	372	74.40	2.15
+78=	Gavin Sicard		UVM KS	77	74	76	75	70	372	74.40	2.42
+78=	Ariel Lee Schuck	Novice	UVM SR	73	74	74	78	73	372	74.40	1.85
+78=	Kaelen Kenna	Novice	UVM BK	75	75	72	75	75	372	74.40	1.20
+78=	Tymofii Trakhachov	Novice, ESL	HWS VT	70	77	74	75	76	372	74.40	2.42
+83=	Starla Bollé	Novice	Bard BP	73	74	76	73	75	371	74.20	1.17
+83=	Ellie Kagan	Novice	SDEC KW	72	73	73	76	77	371	74.20	1.94
+83=	Amy Zhou	Novice	Colgate AZ	73	73	76	73	76	371	74.20	1.47
+83=	Rachel Mahoney	Novice	HWS MW	75	72	74	75	75	371	74.20	1.17
+87=	Justin Galouzi	Novice, ESL	Sherbrooke MG	73	72	76	73	76	370	74.00	1.67
+87=	Chloe Lucia Alexander	Novice	UVM BA	72	76	73	76	73	370	74.00	1.67
+87=	Emily Sakash	Novice	UVM PS	73	73	74	73	77	370	74.00	1.55
+87=	Faith Liu	Novice	Rochester KL	73	73	75	74	75	370	74.00	0.89
+87=	Michael Matheson	Novice	Middleburry White Hall	72	75	76	72	75	370	74.00	1.67
+92=	Stephen Bassler	Novice	Bard WB	74	72	72	73	78	369	73.80	2.23
+92=	Shira Palmer	Novice	UVM PS	74	74	73	72	76	369	73.80	1.33
+92=	Amy Xu	Novice, ESL	Cornell XH	73	77	69	76	74	369	73.80	2.79
+95=	Boen Beavers	Novice	Colgate BR	73	74	76	73	72	368	73.60	1.36
+95=	James Camp	Novice	Middleburry White Hall	71	74	76	72	75	368	73.60	1.85
+97=	Miles Bretherton	Novice	UVM BK	75	72	72	74	74	367	73.40	1.20
+97=	Jack Brown	Novice	SDEC LB	74	72	72	76	73	367	73.40	1.50
+97=	Shoshannah Odinyayeva	Novice	Cornell SO	74	74	70	75	74	367	73.40	1.74
+97=	Annaliese Simons	Novice	Bard SC	72	68	74	79	74	367	73.40	3.56
+97=	Randy Hong	Novice	HWS HL	75	72	73	76	71	367	73.40	1.85
+102=	Robert Lopez-Astacio	Novice, ESL	SDEC LB	74	71	71	76	74	366	73.20	1.94
+102=	Ayaan Mimar Jamali	Novice	Cornell JJ	71	76	68	75	76	366	73.20	3.19
+102=	Trudy Poux	Novice	Bard BP	72	71	75	73	75	366	73.20	1.60
+102=	Matilde Cardoso		SDEC CL	72	72	71	74	77	366	73.20	2.14
+102=	Ethan Hamre Lodge	ESL	SDEC CL	69	76	72	74	75	366	73.20	2.48
+107	Galen Reese	Novice	UVM SR	72	73	72	75	73	365	73.00	1.10
+108=	Shosha Wheeler	Novice	Bard WB	75	67	72	73	77	364	72.80	3.37
+108=	Yue Ji	Novice, ESL	Cornell JJ	71	75	68	74	76	364	72.80	2.93
+108=	Gianluca LoPorto	Novice	HWS HL	74	70	73	76	71	364	72.80	2.14
+111	Liangze Ke	Novice, ESL	Rochester KL	72	73	73	73	72	363	72.60	0.49
+112=	Tom Chitwood	Novice	Bard SC	70	66	75	77	74	362	72.40	3.93
+112=	Kiera Alisha Toussaint	Novice	HWS MT	75	73	72	69	73	362	72.40	1.96
+114=	Jared Solon		Duke YS	66	77	74	68	76	361	72.20	4.40
+114=	LuYi Han	Novice, ESL	Rochester HS	72	73	71	72	73	361	72.20	0.75
+114=	Mateu Healey-Parera	Novice	Cornell XH	71	76	70	73	71	361	72.20	2.14
+117=	Kitana Hudgens	Novice	UVM BH	72	72	75	67	74	360	72.00	2.76
+117=	McKenna Blake	Novice	UVM BA	71	73	72	74	70	360	72.00	1.41
+117=	Rania Sophie Ahmed	Novice, ESL	Bard AM	73	72	74	68	73	360	72.00	2.10
+117=	David Reyes	Novice, ESL	Colgate BR	70	71	75	71	73	360	72.00	1.79
+121	Sasha MacCluskey	Novice	HWS MT	75	74	70	67	73	359	71.80	2.93
+122=	Benjamin Shaw	Novice	Cornell SC	72	73	74	69	70	358	71.60	1.85
+122=	Benjamin Yacht		Duke YS	66	77	74	67	74	358	71.60	4.32
+124=	Agnes Siregar		Rochester HS	71	73	71	71	71	357	71.40	0.80
+124=	Carly Zubrzycki	Novice	Rochester ZS	77	65	71	72	72	357	71.40	3.83
+124=	Grace Wilson	Novice	HWS KW	70	73	70	70	74	357	71.40	1.74
+127=	Tran Trang Linh	Novice, ESL	HWS TT	63	73	76	73	71	356	71.20	4.40
+127=	Paulina Tejada	Novice	HWS TT	62	75	77	70	72	356	71.20	5.19
+129=	Jimmy Cawley	Novice	Cornell SC	72	74	73	67	69	355	71.00	2.61
+129=	Monica Resendez	Novice	Rochester MR	66	72	72	73	72	355	71.00	2.53
+131=	André Brown		UVM BH	72	74	74	60	74	354	70.80	5.46
+131=	Drew Smith	Novice	Rochester ZS	76	65	71	72	70	354	70.80	3.54
+133	Grace Kongoy	Novice	HWS KW	70	72	70	68	73	353	70.60	1.74
+134	Nicole Martinez	Novice	Rochester MR	64	70	73	69	68	344	68.80	2.93
+135	Grace Kwon	Novice	Cornell IK	72	69	76	76	—	293	73.25	2.95
+136	Maryam Mohibby	Novice, ESL	Bard AM	—	72	75	61	72	280	70.00	5.34

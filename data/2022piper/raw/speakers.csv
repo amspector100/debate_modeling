@@ -1,0 +1,70 @@
+Rk	name	category	team	R1	R2	R3	R4	R5	Total	Avg	Trim	Stdev
+1	Tejas Subramaniam		Our Case is Empirically Posterior	82	82	80	83	79	406	81.20	81.33	1.47
+2	Matt Mauriello		Our Case is Empirically Posterior	81	81	80	82	80	404	80.80	80.67	0.75
+3	Sophie Shead		USU B	80	81	78	84	78	401	80.20	79.67	2.23
+4	Pranav &quot;Matt&#x27;s Exotic Friend #99&quot; Anand		Ithaca Wildlife	81	82	78	80	79	400	80.00	80.00	1.41
+5	Eli Pallrand		Ithaca Wildlife	80	82	77	81	79	399	79.80	80.00	1.72
+6	Paula Djaković	ESL	Zagreb Djaković &amp; Šuflaj	81	79	79	81	79	399	79.80	79.67	0.98
+7	Ellie Stephenson		USU B	80	80	77	83	79	399	79.80	79.67	1.94
+8	Vladimira Šuflaj	ESL	Zagreb Djaković &amp; Šuflaj	81	78	78	81	78	396	79.20	79.00	1.47
+9	Muzamil &quot;Matt&#x27;s Exotic Friend #15&quot; Godil		Hart House A	80	79	78	78	79	394	78.80	78.67	0.75
+10	Matt Aydin		Hart House A	79	79	78	77	79	392	78.40	78.67	0.80
+11	Petar Žnidar	ESL	Zagreb Žnidar &amp; Mikota	78	77	78	79	80	392	78.40	78.33	1.02
+12=	Dung Nguyen		Imagine Doing Worlds Prep with Your	79	80	76	78	78	391	78.20	78.33	1.33
+12=	Joshua Paren Paul		Imagine Doing Worlds Prep with Your	79	80	76	78	78	391	78.20	78.33	1.33
+14	Guy Williams	Novice	Beautiful Voices	79	81	75	75	81	391	78.20	78.33	2.71
+15	Andrew Chen		Oxford B	76	79	77	78	81	391	78.20	78.00	1.72
+16	Mislav Mikota	ESL	Zagreb Žnidar &amp; Mikota	78	76	78	79	79	390	78.00	78.33	1.10
+17	Eddy Xu		Proctosedyl	78	79	76	77	80	390	78.00	78.00	1.41
+18	Guy Wolf	ESL	Wolf &amp; Wolff	76	79	76	79	80	390	78.00	78.00	1.67
+19	Millicent Caughey		M&amp;M	79	74	79	79	77	388	77.60	78.33	1.96
+20	Jenny Li	ESL	Beautiful Voices	79	81	75	74	79	388	77.60	77.67	2.65
+21	Yael Wolff	ESL	Wolf &amp; Wolff	75	78	75	79	80	387	77.40	77.33	2.06
+22	Pranav Baskar	Novice	Oxford AP	76	80	79	76	76	387	77.40	77.00	1.74
+23	Manon Fuchs		M&amp;M	78	73	79	79	77	386	77.20	78.00	2.23
+24	Amitai Ben Porat	ESL, Novice	E&amp;A not EA	76	78	73	78	81	386	77.20	77.33	2.64
+25	Elisha Owusu Akyaw	ESL	Zempare &amp; Elisha - Ghana A	78	77	76	78	76	385	77.00	77.00	0.89
+26	Ahmed Hussain	Novice	Oxford AP	76	79	79	76	75	385	77.00	77.00	1.67
+27	Valerie Gu	Novice	Proctosedyl	76	77	77	76	78	384	76.80	76.67	0.75
+28	Wesoamo Zempare	ESL	Zempare &amp; Elisha - Ghana A	77	76	76	79	76	384	76.80	76.33	1.17
+29	Brandon Groth		Want to Makeout	79	76	79	71	78	383	76.60	77.67	3.01
+30	Omar Shalabby	ESL	Reichman A	76	75	78	77	77	383	76.60	76.67	1.02
+31	Laura Hallmark		Piper? I Hardly even Know &#x27;er	77	75	76	75	80	383	76.60	76.00	1.85
+32	Stuart Johnson		Piper? I Hardly even Know &#x27;er	78	73	76	74	82	383	76.60	76.00	3.20
+33	Eden Jaschek	ESL	E&amp;A not EA	75	78	72	77	80	382	76.40	76.67	2.73
+34	Ilhui Bravo	ESL	ITAM A	78	77	74	76	76	381	76.20	76.33	1.33
+35	Zoe Zhu	Novice	Chicago LZ	75	77	77	73	79	381	76.20	76.33	2.04
+36	Andy Rincon	ESL	ITAM A	79	77	74	76	75	381	76.20	76.00	1.72
+37	Nimai Koneru		Want to Makeout	77	76	78	72	77	380	76.00	76.67	2.10
+38	Maya Tamir	ESL	Reichman A	76	75	76	77	76	380	76.00	76.00	0.63
+39	Noam Levinsky	Novice	Chicago LZ	74	78	76	73	78	379	75.80	76.00	2.04
+40	Ishan Khire		Breaking Hearts and Tabs	78	75	77	73	75	378	75.60	75.67	1.74
+41	Bauke Post	ESL, Novice	Sciences Pipeaus	75	73	75	79	76	378	75.60	75.33	1.96
+42	Bruno Jose Fonseca	ESL, Novice	Sciences Pipeaus	75	72	75	78	77	377	75.40	75.67	2.06
+43	Valentina Butenko	Novice	UCL BM	76	72	76	74	76	374	74.80	75.33	1.60
+44	Jobenjeet Mehroke	Novice	UCL BM	77	71	73	75	76	372	74.40	74.67	2.15
+45	Yeap Qian Fang	Novice	Chicago FH	73	74	68	76	75	366	73.20	74.00	2.79
+46	Rachel Hong	Novice	Chicago FH	73	73	68	75	74	363	72.60	73.33	2.42
+47	Gaby Lin		Oxford B	77	78	77	79	—	311	77.75	77.50	0.83
+48	Danigan Keecha-Milsom		Monash A	77	79	79	70	—	305	76.25	78.00	3.70
+49	Jumana Tanuja	ESL	No Name Because Our Mind Went Blank	77	76	—	77	74	304	76.00	76.50	1.22
+50	Tristan Hocking-Brown		Monash A	76	78	78	71	—	303	75.75	77.00	2.86
+51	A K M Anindya Alam	ESL	BUET C	75	73	74	73	—	295	73.75	73.50	0.83
+52	Amanat Hossain Emon	ESL	BUET C	76	72	74	73	—	295	73.75	73.50	1.48
+53	1		swing 1	80	—	—	74	80	234	78.00	80.00	2.83
+54	Shirsha Songshoptak	ESL	No Name Because Our Mind Went Blank	—	77	76	76	—	229	76.33	76.00	0.47
+55	Britney Pham		Mutually Assured Destruction	77	76	75	—	—	228	76.00	76.00	0.82
+56	Alexander Xing		Mutually Assured Destruction	77	75	75	—	—	227	75.67	75.00	0.94
+57	3		swing 2	80	—	—	—	80	160	80.00	80.00	0.00
+58	4		swing 2	78	—	—	—	80	158	79.00	79.00	1.00
+59	5		swing 3	72	—	—	—	77	149	74.50	74.50	2.50
+60	2		swing 1	—	—	—	—	81	81	81.00	81.00	0.00
+61	6		swing 3	—	—	—	—	77	77	77.00	77.00	0.00
+62	Daniel Svirsky		UWODS A	76	—	—	—	—	76	76.00	76.00	0.00
+63=	Larisha Lamichhane		Sa and Sha	—	—	—	—	—	—	—	—	—
+63=	Jeffew Cheung		Piper Pies	—	—	—	—	—	—	—	—	—
+63=	Ben Dover		Piper Pies	—	—	—	—	—	—	—	—	—
+63=	Adam Ursenbach		UWODS A	—	—	—	—	—	—	—	—	—
+63=	Sashank Joshi		Sa and Sha	—	—	—	—	—	—	—	—	—
+63=	Jose Vergara		PUCP A	—	—	—	—	—	—	—	—	—
+63=	Mauricio jarufe		PUCP A	—	—	—	—	—	—	—	—	—

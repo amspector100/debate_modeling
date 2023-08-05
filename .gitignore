@@ -1,4 +1,9 @@
 
+## Do not commit sim_data
+sim_data/*
+notebooks_private/*
+data/combined/*
+
 # No .Rout files
 *.Rout
 
