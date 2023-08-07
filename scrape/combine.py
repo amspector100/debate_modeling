@@ -45,8 +45,8 @@ RESULT2RANK = {
 	"2nd":2,
 	"3rd":1,
 	"4th":0,
-	"advancing":1,
-	"eliminated":2,
+	"advancing":3,
+	"eliminated":0,
 }
 def _map_column_verbose(df, col, map_dict, newcol=None):
 	""" sets df[newcol] = df[col].map(map_dict) but warns if produces NaNs """

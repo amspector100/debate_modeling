@@ -35,6 +35,10 @@ ext_modules = [
 		"dmsrc.models._truncnorm",
 		sources=["dmsrc/models/_truncnorm.pyx"],
 	),
+	Extension(
+		"dmsrc.models._ordinal_probit",
+		sources=["dmsrc/models/_ordinal_probit.pyx"],
+	),
 ]
 
 setup(

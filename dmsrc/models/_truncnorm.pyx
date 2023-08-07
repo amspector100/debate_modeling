@@ -1,4 +1,4 @@
-# cython: profile=False
+# cython: profile=True
 
 ######################################################################
 # Custom (faster) truncated normal sampler.
@@ -15,6 +15,7 @@ from libc.math cimport log, exp, fabs, sqrt, fmin, fmax, M_1_PI
 #from numpy.math cimport INFINITY
 
 cdef double INV_SQRT2PI = sqrt(M_1_PI / 2)
+cdef double MAX_EXP = 20
 
 
 @cython.nonecheck(False)
@@ -23,8 +24,8 @@ cpdef double random_uniform():
 	cdef double r = rand()
 	return r / RAND_MAX
 
-@cython.nonecheck(False)
-@cython.cdivision(True)
+# @cython.nonecheck(False)
+# @cython.cdivision(True)
 cdef double _expo_tn_sampler(double a, double b):
 	"""
 	Samples Z \sim N(0,1) | Z \in [a,b]
@@ -41,8 +42,8 @@ cdef double _expo_tn_sampler(double a, double b):
 		if u <= rho and y + a <= b:
 			return y + a
 
-@cython.nonecheck(False)
-@cython.cdivision(True)
+# @cython.nonecheck(False)
+# @cython.cdivision(True)
 cdef double _norm_tn_sampler(double a, double b):
 	"""
 	Samples Z \sim N(0,1) | Z \in [a,b]
@@ -58,8 +59,8 @@ cdef double _norm_tn_sampler(double a, double b):
 		if z >= a and z <= b:
 			return z
 
-@cython.nonecheck(False)
-@cython.cdivision(True)
+# @cython.nonecheck(False)
+# @cython.cdivision(True)
 cdef double _unif_tn_sampler(double a, double b):
 	"""
 	Samples Z \sim N(0,1) | Z \in [a,b]
@@ -83,8 +84,8 @@ cdef double _unif_tn_sampler(double a, double b):
 		if u <= exp(-z*z/2):
 			return z
 
-@cython.nonecheck(False)
-@cython.cdivision(True)
+# @cython.nonecheck(False)
+# @cython.cdivision(True)
 cdef double _sample_truncnorm_std(double a, double b, double phia, double phib):
 	"""
 	Samples Z \sim N(0,1) | Z \in [a, b]
@@ -105,11 +106,11 @@ cdef double _sample_truncnorm_std(double a, double b, double phia, double phib):
 			return _unif_tn_sampler(a, b)
 	## Case 2
 	if a > 0:
-		ratio = phia / phib
+		ratio = exp(fmin(-(a*a - b*b)/2, MAX_EXP))
 		if ratio <= t2:
 			return _unif_tn_sampler(a, b)
 		else:
-			if a > t3:
+			if a <= t3:
 				return _norm_tn_sampler(a, b)
 			else:
 				return _expo_tn_sampler(a, b)
@@ -117,11 +118,11 @@ cdef double _sample_truncnorm_std(double a, double b, double phia, double phib):
 	return -1 * _sample_truncnorm_std(-b, -a, phib, phia)
 
 
-@cython.nonecheck(False)
-@cython.cdivision(True)
+# @cython.nonecheck(False)
+# @cython.cdivision(True)
 cpdef double sample_truncnorm(
 	double mean,
-	double var,
+	double sd,
 	double a,
 	double b,
 ):
@@ -129,14 +130,13 @@ cpdef double sample_truncnorm(
 	samples Z ~ N(mean, var) | Z in [a,b]
 	"""
 	if a >= b:
-		raise ValueError("a >= b")
-	cdef double scale = sqrt(var)
+		raise ValueError(f"a={a} >= b={b}")
 	# adjust
-	a = (a - mean) / scale
-	b = (b - mean) / scale
+	a = (a - mean) / sd
+	b = (b - mean) / sd
 	cdef double phia = exp(-a*a/2) * INV_SQRT2PI
 	cdef double phib = exp(-b*b/2) * INV_SQRT2PI
 	# sample
 	z = _sample_truncnorm_std(a, b, phia, phib)
 	# return
-	return mean + scale * z
+	return mean + sd * z
