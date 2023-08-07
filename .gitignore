@@ -3,6 +3,7 @@
 sim_data/*
 notebooks_private/*
 data/combined/*
+dmsrc/models/*.c
 
 # No .Rout files
 *.Rout
