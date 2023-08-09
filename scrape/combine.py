@@ -192,7 +192,7 @@ def process_single_round(
 	# Merge with speaks data for inrounds
 	speaksub = all_speaks.loc[
 		(all_speaks['tourn_id'] == tourn_id) &
-		(all_speaks['round'] == round_number)
+		(all_speaks['round'].astype(int) == int(round_number))
 	]
 	if len(speaksub) == 0:
 		rdf['speaks0'] = np.nan
@@ -303,6 +303,7 @@ def process_speaker_data(tournaments, all_speakers):
 			rel_cols.append(c)
 	sdf = sdf[rel_cols].melt(id_vars=ids, var_name='round', value_name='speaks')
 	sdf = sdf.loc[sdf['speaks'].notnull()]
+	sdf['round'] = sdf['round'].apply(lambda x: x[1:]).astype(int)
 	sdf.to_csv("../data/combined/all_speaks.csv", index=False)
 	return sdf
 
