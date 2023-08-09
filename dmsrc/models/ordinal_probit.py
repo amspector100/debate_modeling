@@ -39,8 +39,10 @@ class OrdinalProbit():
 		ranks,
 		sigma2_a0=2,
 		sigma2_b0=1,
+		tau2=1,
 		tau2_a0=2,
-		tau2_b0=1
+		tau2_b0=1,
+		update_tau2=True,
 	):
 		# save input data
 		self.k, self.n, _ = X.shape
@@ -59,6 +61,8 @@ class OrdinalProbit():
 		self.sigma2_b0 = sigma2_b0
 		self.tau2_a0 = tau2_a0
 		self.tau2_b0 = tau2_b0
+		self.tau2 = tau2
+		self.update_tau2 = update_tau2
 
 	def sample(
 		self,
@@ -89,6 +93,8 @@ class OrdinalProbit():
 				N=N+burn,
 				X=self.X,
 				ranks=self.ranks,
+				tau2=self.tau2,
+				update_tau2=self.update_tau2,
 				sigma2_a0=self.sigma2_a0,
 				sigma2_b0=self.sigma2_b0,
 				tau2_a0=self.tau2_a0,

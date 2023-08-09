@@ -34,7 +34,9 @@ cdef double M_SQRT1_2 = sqrt(0.5)
 def _sample_ordinal_probit(
 	int N,
 	long[:, :, ::1] X, # k x n x 2
-	long[:, ::1] ranks, # k x n 
+	long[:, ::1] ranks, # k x n
+	double tau2,
+	int update_tau2, 
 	double tau2_a0,
 	double tau2_b0,
 	double sigma2_a0,
@@ -100,7 +102,7 @@ def _sample_ordinal_probit(
 
 	# initialize
 	sigma2s[0] = 1.0
-	tau2s[0] = 1.0
+	tau2s[0] = tau2
 
 	## initialize mus
 	# start by finding normalizations on rank
@@ -125,6 +127,7 @@ def _sample_ordinal_probit(
 		if log_interval != 0:
 			if i % log_interval == 0:
 				print(f"Beginning iteration={i}.")
+				sys.stdout.flush()
 		# precompute log determinants / posterior variances
 		for j in range(p):
 			logdets[j] = log(1.0 + tau2s[i] * Xl2[j] / sigma2s[i]) / 2.0
@@ -177,14 +180,16 @@ def _sample_ordinal_probit(
 
 		# Update hyperparams
 		# 1. tau2
-		r2 = blas.dnrm2(&p, &betas[i, 0], &inc_1)
-		tau_b = r2 * r2 / 2.0 + tau2_b0
-		tau2s[i] = tau_b * invgam_tau[i]
+		if update_tau2 == 1:
+			r2 = blas.dnrm2(&p, &betas[i, 0], &inc_1)
+			tau_b = r2 * r2 / 2.0 + tau2_b0
+			tau2s[i] = tau_b * invgam_tau[i]
 
-		# 2. sigma2
-		r2 = blas.dnrm2(&nk, &mus[i, 0, 0], &inc_1)
-		sigma_b = r2 * r2 / 2.0 + sigma2_b0
-		sigma2s[i] = sigma_b * invgam_sigma[i]
+		# 2. sigma2: currently unidentifiable
+		sigma2s[i] = 1.0
+		# r2 = blas.dnrm2(&nk, &mus[i, 0, 0], &inc_1)
+		# sigma_b = r2 * r2 / 2.0 + sigma2_b0
+		# sigma2s[i] = sigma_b * invgam_sigma[i]
 
 		# Set new betas, p0s to be old values (temporarily)
 		if i != N - 1:

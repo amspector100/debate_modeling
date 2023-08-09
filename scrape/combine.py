@@ -66,6 +66,21 @@ def _combine_multicols(df):
 	return df
 
 #### Major processing functions
+def create_team2teamid(tourn_id):
+	"""
+	Returns
+	-------
+	teams2ids : dict
+		Maps team to id. The ID is unique within a tournament
+		but not between tournaments.
+	"""
+	# Read
+	tabdf = pd.read_csv(f"../data/{tourn_id}/raw/tab.csv", sep='\t')
+	tabdf.set_index("team", inplace=True)
+	# convert to dict
+	tabdf['team_id'] = np.arange(len(tabdf)).astype(int)
+	return tabdf['team_id'].to_dict()
+
 def clean_speaker_df(sdf, all_speakers=None):
 	# Correctly process names: replace two periods with one
 	sdf = sdf.loc[sdf['name'].notnull()]
@@ -134,7 +149,19 @@ def create_global_speaker_list(tournaments):
 
 	all_speakers.to_csv(all_speakers_fname)
 
-def process_single_round(rdf, team2speakerid, swing_id):
+def process_single_round(
+	rdf, 
+	team2speakerid,
+	team2teamid,
+	swing_id,
+	all_speaks,
+	tourn_id,
+	round_number
+):
+	# team id
+	rdf['team_id'] = rdf['team'].map(team2teamid)
+	rdf['team_id'] = rdf['team_id'].fillna(-1)
+
 	# Missing teams get mapped to the swing speaker
 	rteams = set(rdf['team'].unique().tolist())
 	steams = set(team2speakerid.index.tolist())
@@ -162,8 +189,33 @@ def process_single_round(rdf, team2speakerid, swing_id):
 	rdf = _map_column_verbose(rdf, col='side', map_dict=SIDE_NAMES)
 	rdf = _map_column_verbose(rdf, col='result', newcol='rank', map_dict=RESULT2RANK)
 
+	# Merge with speaks data for inrounds
+	speaksub = all_speaks.loc[
+		(all_speaks['tourn_id'] == tourn_id) &
+		(all_speaks['round'] == round_number)
+	]
+	if len(speaksub) == 0:
+		rdf['speaks0'] = np.nan
+		rdf['speaks1'] = np.nan
+	else:
+		for sid in ['0', '1']:
+			# change names to make merging easier
+			on = [f'speaker_id{sid}', 'team_id']
+			speaksub = speaksub.rename(columns={"id":f"speaker_id{sid}", "speaks":f"speaks{sid}"})
+			intermed = pd.merge(
+				rdf, speaksub[on + [f'speaks{sid}']], how='left'
+			)
+			if sid == '0':
+				intermed = intermed.groupby(on)[f'speaks{sid}'].first()
+			else:
+				intermed = intermed.groupby(on)[f'speaks{sid}'].last()
+			rdf = pd.merge(rdf, intermed, on=on, how='left', validate='one_to_one')
+			# reset speaksub
+			speaksub = speaksub.rename(columns={f"speaker_id{sid}":"id", f"speaks{sid}":"speaks"})
+			
+
 	# pivot to longer format
-	rdf = rdf[['rank', 'side', 'adjudicators', 'speaker_id0', 'speaker_id1']].pivot(
+	rdf = rdf[['rank', 'side', 'team_id', 'adjudicators', 'speaker_id0', 'speaker_id1', 'speaks0', 'speaks1']].pivot(
 		index='adjudicators', columns='side'
 	)
 	rdf = _combine_multicols(rdf)
@@ -171,9 +223,9 @@ def process_single_round(rdf, team2speakerid, swing_id):
 	rdf.index = np.arange(len(rdf))
 	return rdf
 
-def process_rounds_data(tournaments, all_speakers):
+def process_rounds_data(tournaments, all_speakers, all_speaks):
 	"""
-	Assumes that all_speakers has already been created
+	Assumes that all_speakers, all_speaks have already been created
 	"""
 	swing_id = all_speakers.loc[
 		all_speakers['name'].str.contains('speaker'), 'id'
@@ -193,6 +245,7 @@ def process_rounds_data(tournaments, all_speakers):
 		team2speakerid = sdf.groupby("team")['id'].apply(
 			lambda x: list(np.unique(x))
 		)
+		team2teamid = create_team2teamid(code)
 		# Load round data
 		rfiles = sorted(glob.glob(tourndir + "round*.csv"))
 		for rfile in rfiles:
@@ -203,7 +256,11 @@ def process_rounds_data(tournaments, all_speakers):
 				rdf = process_single_round(
 					rdf=rdf,
 					team2speakerid=team2speakerid,
+					team2teamid=team2teamid,
 					swing_id=swing_id,
+					all_speaks=all_speaks,
+					tourn_id=code,
+					round_number=round_number,
 				)
 				rdf['tourn_id']= code
 				rdf['date'] = date
@@ -223,27 +280,31 @@ def process_speaker_data(tournaments, all_speakers):
 	all_participants = []
 	sdfs = []
 	for cid, code in enumerate(tournaments['Code']):
+		# team --> team id
+		team2teamid = create_team2teamid(code)
 		# Load speaker data
 		tourndir = f"../data/{code}/raw/"
 		sdf = pd.read_csv(tourndir + "speakers.csv", sep='\t')
 		sdf = clean_speaker_df(sdf, all_speakers=all_speakers)
-		sdf['tourn'] = code
-		sdf['tourn_id'] = cid
+		sdf['tourn_id'] = code
+		sdf['team_id'] = sdf['team'].map(team2teamid)
+		sdf['team_id'] = sdf['team_id'].fillna(-1)
 		sdfs.append(sdf)
 
 	# Combine
 	sdf = pd.concat(sdfs, axis='index')
 	sdf[sdf == '—'] = np.nan
 	# infer which columns are speaks for rounds
-	ids = ['id', 'tourn', 'tourn_id']
+	ids = ['id', 'tourn_id', 'team_id']
 	rel_cols = copy.copy(ids)
 	for c in sdf.columns:
 		cl = c.lower()
 		if cl[0] == 'r' and is_float(cl.split('r')[-1]):
 			rel_cols.append(c)
-	sdf = sdf[rel_cols].melt(id_vars=ids)[ids + ['value']]
-	sdf = sdf.loc[sdf['value'].notnull()]
+	sdf = sdf[rel_cols].melt(id_vars=ids, var_name='round', value_name='speaks')
+	sdf = sdf.loc[sdf['speaks'].notnull()]
 	sdf.to_csv("../data/combined/all_speaks.csv", index=False)
+	return sdf
 
 def main():
 	t0 = time.time()
@@ -257,12 +318,11 @@ def main():
 	# Read list of speakers
 	all_speakers = pd.read_csv(all_speakers_fname)
 
-	# Process rounds data
-	process_rounds_data(tournaments, all_speakers)
-
 	# Speaker data
-	process_speaker_data(tournaments, all_speakers)
+	all_speaks = process_speaker_data(tournaments, all_speakers)
 
+	# Process rounds data
+	process_rounds_data(tournaments, all_speakers, all_speaks)
 
 if __name__ == '__main__':
 	main()
