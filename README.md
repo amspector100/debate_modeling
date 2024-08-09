@@ -4,7 +4,7 @@ This repository is the code I used to create some simple models of debating resu
 
 ## Data availability
 
-Because I love you, I have pushed all of the raw data to github. You can simply navigate to ``scrape/`` and run ``python3.9 combine.py`` to clean/combine all of this data, which will then be ready for analysis.
+To make things easy, I have pushed all of the raw data to github. You can simply navigate to ``scrape/`` and run ``python3.9 combine.py`` to clean/combine all of this data, which will then be ready for analysis.
 
 The combined data will appear in the ``data/combined/`` directory. There will be three files: (i) ``all_speakers.csv`` which is the list of all speakers and their unique speaker id, ``all_speaks.csv`` which is the list of all speaks obtained by speakers, and ``round_data.csv``, which lists all results from all rounds in the tournaments (including both inrounds and outrounds).
 
@@ -21,7 +21,3 @@ I have made a few preliminary models, some of which are available in ``notebooks
 ## Simulations
 
 The folder ``sims/`` contains the code to simulate some tournaments. I ran some experiments to see if tapered scoring is a good idea---I personally found that tapering/not tapering doesn't make much difference, but maybe in your simulations you'll find different results.
-
-## Documentation
-
-Maybe one day I will write better documentation for this repository.
