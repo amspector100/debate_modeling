@@ -1,0 +1,89 @@
+Rk	name	category	team	R1	R2	R3	R4	R5	Total	Avg	Stdev	Trim
+1	Nicholas Abernethy	Open	Terribly Maintained Highways	81	81	79	82	81	404	80.80	0.98	81.00
+2	Daniel Svirsky	Open	Terribly Maintained Highways	80	81	78	82	81	402	80.40	1.36	80.67
+3	Noah Macdonald	Open	Sulphur Mountain	79	80	78	80	80	397	79.40	0.80	79.67
+4	Alex Logan	Open	West Edmonton Mall	78	78	80	80	80	396	79.20	0.98	79.33
+5	Diggory Waddle	Open	Nyanko Oil Warriors	78	78	81	80	79	396	79.20	1.17	79.00
+6	Hao Ni	Open, Novice	West Edmonton Mall	78	77	80	81	80	396	79.20	1.47	79.33
+7	Abigail Conrad	Open	Sulphur Mountain	78	79	78	79	81	395	79.00	1.10	78.67
+8	Anais Kneppers	Open	Talus Dome	83	77	78	77	80	395	79.00	2.28	78.33
+9	Claire Chen	Open	Oil Sector	81	76	82	75	80	394	78.80	2.79	79.00
+10	Griffin Wong	Open	The Saddledome	78	80	79	78	78	393	78.60	0.80	78.33
+11	Raymond Qiu	Open	Nyanko Oil Warriors	76	79	80	79	79	393	78.60	1.36	79.00
+12	Jaleelah Ammar	Open	Canola Farming	81	78	75	80	79	393	78.60	2.06	79.00
+13	Aidan O&#x27;Brien	Open	Canola Farming	80	79	75	79	78	391	78.20	1.72	78.67
+14	Nimai Koneru	Open	Oil Sector	80	76	80	76	79	391	78.20	1.83	78.33
+15	Lily McKay	Open	The Blue Ring	77	77	77	77	82	390	78.00	2.00	77.00
+16=	Emma Kelly	Open	The Blue Ring	76	77	77	78	82	390	78.00	2.10	77.33
+16=	Pedro Proano	Open	Talus Dome	82	77	77	76	78	390	78.00	2.10	77.33
+18	Joseph Mai	Open, Novice	Pancake Breakfast	80	77	77	76	79	389	77.80	1.47	77.67
+19	Mahir Aziz	Open	Long-Sleeved Flannel	76	79	76	78	80	389	77.80	1.60	77.67
+20	Fiona Gervin	Open	Stampede	79	75	79	77	78	388	77.60	1.50	78.00
+21	Cam Miranda-Radbord	Open	Pancake Breakfast	80	77	76	76	79	388	77.60	1.62	77.33
+22	Avery LeBelle	Open, Novice	Stampede	77	75	79	78	77	386	77.20	1.33	77.33
+23	Elsie thomson	Open, Novice	Cowboy Hats	73	75	77	79	82	386	77.20	3.12	77.00
+24	Adrian Wattamaniuk	Open	Truck Nuts	77	78	76	77	77	385	77.00	0.63	77.00
+25	Annika Frankiss	Open, Novice	Lake Louise	76	79	74	78	78	385	77.00	1.79	77.33
+26	Tessa Smith	Open	Cowboy Hats	73	76	77	78	80	384	76.80	2.32	77.00
+27	Eamon Tan	Open	Wexit	78	71	79	79	77	384	76.80	2.99	78.00
+28	Nilabh Agrawal	Open, Novice	BeaverTails	76	78	73	79	77	383	76.60	2.06	77.00
+29	Sophie Ng	Open, Novice	Lake Louise	74	79	74	78	78	383	76.60	2.15	76.67
+30	Malcolm La Prairie	Open	Royal Tyrrell Museum	76	78	76	76	76	382	76.40	0.80	76.00
+31	Andre Zhang	Open, Novice	Johnston Canyon	77	78	75	77	75	382	76.40	1.20	76.33
+32	Jasmine Leung	Open	Royal Tyrrell Museum	78	77	77	76	74	382	76.40	1.36	76.67
+33	Dhruv Kairon	Open	Truck Nuts	77	76	76	76	76	381	76.20	0.40	76.00
+34	Silin Wei	Open	Grizzly Bear	75	74	78	76	78	381	76.20	1.60	76.33
+35	Jacky Li	Open, Novice	Rodeo	77	75	79	76	74	381	76.20	1.72	76.00
+36	William Wang	Open	Grizzly Bear	75	73	78	76	79	381	76.20	2.14	76.33
+37	Parker Keeley	Open, Novice	BeaverTails	75	78	72	79	77	381	76.20	2.48	76.67
+38	Bruce Tong	Open	Wexit	78	71	78	78	76	381	76.20	2.71	77.33
+39	Hamza Saghir	Open	Prairie Parklands	79	74	73	78	76	380	76.00	2.28	76.00
+40	William Shi	Open, Novice	Johnston Canyon	76	78	75	76	74	379	75.80	1.33	75.67
+41	Emma Djukic	Open, Novice	Dodge Ram 1500	75	74	77	78	75	379	75.80	1.47	75.67
+42	Jonathan Barazzutt	Open, Novice	Heritage Park	79	73	75	77	75	379	75.80	2.04	75.67
+43	Angad Singh Phagura	Open, Novice	Denim-on-Denim	76	74	76	75	77	378	75.60	1.02	75.67
+44	Hunter McNaughton	Open, Novice	The River Valley	75	76	78	76	73	378	75.60	1.62	75.67
+45	Natalie Derkowski	Open, Novice	Dodge Ram 1500	73	75	77	77	75	377	75.40	1.50	75.67
+46	Owen Twamley	Open, Novice	Prairie Parklands	77	74	72	78	76	377	75.40	2.15	75.67
+47	Azrina Hossain	Open, Novice	The Calgary Tower	78	77	72	75	74	376	75.20	2.14	75.33
+48	Eyasu Yakob	Open	Its always those damn liberals...	76	76	76	78	70	376	75.20	2.71	76.00
+49	Nitasha Baig	Open	gReEn EnERgy TrAnSItIon	75	75	76	74	75	375	75.00	0.63	75.00
+50	Muhammad Mahmood	Open, Novice	Black Bear	75	76	73	75	76	375	75.00	1.10	75.33
+51	Rohit Kumar	Open, Novice	Heritage Park	78	73	75	76	73	375	75.00	1.90	74.67
+52	Zac Williams	Open, Novice	Denim-on-Denim	76	74	74	74	76	374	74.80	0.98	74.67
+53=	Selim Bytyqi	Open	Black Bear	73	75	74	75	77	374	74.80	1.33	74.67
+53=	Mathew Maramat	Open, Novice	The River Valley	75	74	77	75	73	374	74.80	1.33	74.67
+55	Annika Rose	Open, Novice	gReEn EnERgy TrAnSItIon	75	75	76	72	76	374	74.80	1.47	75.33
+56	Faraan Rashid	Open, Novice	Bandanas	71	76	78	74	75	374	74.80	2.32	75.00
+57	Nathan Thiessen	Open	Its always those damn liberals...	77	75	74	77	70	373	74.60	2.58	75.33
+58	Rikthi Pranadhik Mondal	Open, Novice	The Calgary Tower	77	77	71	73	74	372	74.40	2.33	74.67
+59	Sefat Uddin Samee	Open, Novice	Bandanas	69	75	78	74	76	372	74.40	3.01	75.00
+60=	Chichi Sharma	Open, Novice	Rogers Place	75	76	74	71	75	371	74.20	1.72	74.67
+60=	Mahad Rzain	Open, Novice	Yamnuska Wolfdog Sanctuary	73	72	74	75	77	371	74.20	1.72	74.00
+62	Kyla Coutts	Open, Novice	Beef Industry	74	78	71	76	72	371	74.20	2.56	74.00
+63	Paula Sánchez Blanco	Open, Novice	Northern Peatlands	73	75	76	74	72	370	74.00	1.41	74.00
+64	Vasu Kansra	Open, Novice	Rogers Place	74	77	73	71	75	370	74.00	2.00	74.00
+65	Camille Lesco	Open, Novice	Beef Industry	74	76	73	74	72	369	73.80	1.33	73.67
+66	Wajih Ahmed	Open	Mount Temple	69	78	78	68	76	369	73.80	4.40	74.33
+67	Prithul Hia	Open, Novice	Wild Horses	75	74	75	73	71	368	73.60	1.50	74.00
+68	Anna Oleson	Open, Novice	Cowboy Boots	73	73	74	72	75	367	73.40	1.02	73.33
+69	Marty Martynowski	Open, Novice	Wild Horses	74	74	75	74	70	367	73.40	1.74	74.00
+70	Zwaiba Khan	Open	Mount Temple	70	77	76	69	75	367	73.40	3.26	73.67
+71	Pepe Blasco	Open, Novice	Northern Peatlands	72	74	75	75	70	366	73.20	1.94	73.67
+72	Emily Babcock	Open, Novice	Cowboy Boots	73	73	71	74	74	365	73.00	1.10	73.33
+73	Guillermo Tellez-Hernandez	Open, Novice	Pipelines	68	73	75	75	72	363	72.60	2.58	73.33
+74	Abhilaksh Abhilaksh	Open, Novice	Telus Spark Centre	76	72	71	71	72	362	72.40	1.85	71.67
+75	Omar Yousef	Open, Novice	Telus Spark Centre	75	73	70	70	73	361	72.20	1.94	72.00
+76	Umar Yousuf	Open	Bacon in Everything	69	73	73	71	75	361	72.20	2.04	72.33
+77	Farzan Yousuf	Open, Novice	Pipelines	66	73	74	75	72	360	72.00	3.16	73.00
+78	Simon Yu	Open	Long-Sleeved Flannel	76	80	—	79	80	315	78.75	1.64	79.50
+79	Tanzim Hossain	Open	The Saddledome	—	80	78	77	77	312	78.00	1.22	77.50
+80	Oscar Jiang	Open, Novice	Rodeo	77	76	78	—	73	304	76.00	1.87	76.50
+81	Slay	Open	Swing 1	73	—	80	77	74	304	76.00	2.74	75.50
+82	Gatekept	Open	Swing 3	—	70	76	75	78	299	74.75	2.95	75.50
+83	Girlboss	Open	Swing 2	—	75	69	73	77	294	73.50	2.96	74.00
+84	Saad Latif	Open, Novice	Yamnuska Wolfdog Sanctuary	73	73	74	72	—	292	73.00	0.71	73.00
+85	Girlbosssss	Open	Swing 2	74	75	69	73	—	291	72.75	2.28	73.50
+86	Kourosh Malayeri	Open, Novice	Bacon in Everything	68	74	73	71	—	286	71.50	2.29	72.00
+87	Gatekeep	Open	Swing 3	75	—	—	75	78	228	76.00	1.41	75.00
+88	Slayyy	Open	Swing 1	—	—	—	—	74	74	74.00	0.00	74.00

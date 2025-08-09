@@ -1,0 +1,171 @@
+Rk	name	category	team	R1	R2	R3	R4	R5	Team	Total	Stdev	Trim	Avg
+1	Xiao-ke Lu		Princeton A	80	86	82	80	84	12	412	2.33	82.00	82.40
+2	Isaac Cape		Princeton A	80	87	82	80	83	12	412	2.58	81.67	82.40
+3	Max Rosen		MDU RY	81	80	81	80	82	14	404	0.75	80.67	80.80
+4	Jacob Silcoff		MDU Rolls Royce	80	80	82	82	80	12	404	0.98	80.67	80.80
+5	David Bloom		Yale BS	81	82	80	82	79	11	404	1.17	81.00	80.80
+6	Ryan Lafferty		IND Matt and Ryan	77	85	79	81	82	10	404	2.71	80.67	80.80
+7	Reana Yan		MDU RY	81	79	80	81	82	14	403	1.02	80.67	80.60
+8	Matt Song		Yale BS	81	82	80	81	79	11	403	1.02	80.67	80.60
+9	Matthew Farrell		IND Halifax Grammar School	78	80	81	83	81	12	403	1.62	80.67	80.60
+10	Daniel Svirsky		UWODS	81	80	81	78	82	12	402	1.36	80.67	80.40
+11	Ram Orfanel	ESL	Cornell ER	79	80	81	81	80	11	401	0.75	80.33	80.20
+12	Diggory Waddle		UWODS	80	80	80	79	82	12	401	0.98	80.00	80.20
+13	Eli Pallrand		Cornell ER	78	80	81	81	81	11	401	1.17	80.67	80.20
+14	Sarenna McKellar		MDU Rolls Royce	79	80	82	81	79	12	401	1.17	80.00	80.20
+15	Jenna Hong		Harvard Miles Wang	80	82	79	80	79	10	400	1.10	79.67	80.00
+16	Matt Mauriello		IND Matt and Ryan	76	84	79	80	81	10	400	2.61	80.00	80.00
+17	Mic Lewis		MDU Aziz-Lewis	80	79	81	76	83	10	399	2.32	80.00	79.80
+18	Dennis Su		IND NU Phone Hu Dis	77	80	81	79	81	12	398	1.50	80.00	79.60
+19	Claire Chen		QDU CK	83	77	81	78	78	10	397	2.24	79.00	79.40
+20	Humam Aziz		MDU Aziz-Lewis	77	80	80	76	84	10	397	2.80	79.00	79.40
+21	Tanay Patri		IND NU Phone Hu Dis	78	81	80	78	79	12	396	1.17	79.00	79.20
+22	Miles Wang		Harvard Miles Wang	80	81	78	79	78	10	396	1.17	79.00	79.20
+23	Nicholas Abernethy		IND Halifax Grammar School	77	78	80	80	81	12	396	1.47	79.33	79.20
+24	Lochlann Kerr		IND An economist and a lawyer walk int	76	80	80	82	78	10	396	2.04	79.33	79.20
+25	Jaleelah Ammar		EDS Aaron Boone vs the mlbua	81	77	80	79	77	10	394	1.60	78.67	78.80
+26	Karel Brandenbarg		IND Athabasca/Concordia Hybrid	77	82	77	79	79	11	394	1.83	78.33	78.80
+27	Isabel Orlando		Cornell IA	77	78	75	81	82	9	393	2.58	78.67	78.60
+28	Nimai Koneru		QDU CK	83	76	81	77	75	10	392	3.07	78.00	78.40
+29	Naz Soysal		Yale MS	78	78	76	81	78	11	391	1.60	78.00	78.20
+30	Vivek Gala		IND An economist and a lawyer walk int	75	80	78	82	76	10	391	2.56	78.00	78.20
+31	Dilan Desir		Stanford DB	75	82	77	76	81	10	391	2.79	78.00	78.20
+32	Raj Bains		IND Athabasca/Concordia Hybrid	76	81	77	77	79	11	390	1.79	77.67	78.00
+33	Ethan Jiang		Chicago JW	81	77	77	79	76	9	390	1.79	77.67	78.00
+34	Abigel Manaye		Cornell IA	76	78	75	79	82	9	390	2.45	77.67	78.00
+35	Michael Chen	Novice	IND Phi Epsilon Nu Iota Sigma	79	78	76	82	75	8	390	2.45	77.67	78.00
+36	Helen Wu		Chicago JW	82	78	77	79	74	9	390	2.61	78.00	78.00
+37	Ella Bullock-Papa		Stanford DB	75	82	78	75	80	10	390	2.76	77.67	78.00
+38	Omesh Dhar Dwivedi		Drexel Dragon Tales	76	80	75	79	79	9	389	1.94	78.00	77.80
+39	Anders Woodruff		MDU the unrizzable speak	79	75	80	76	79	8	389	1.94	78.00	77.80
+40	Lily Mckay		QDU the one that went to market	75	76	81	77	80	8	389	2.32	77.67	77.80
+41	Ivan Toh	Novice	Stanford TY	82	78	77	77	75	9	389	2.32	77.33	77.80
+42	Aidan O&#x27;Brien		EDS Aaron Boone vs the mlbua	79	77	79	77	76	10	388	1.20	77.67	77.60
+43	Jumanah Ahmed		UW retiring any 2nd now	77	78	77	76	80	10	388	1.36	77.33	77.60
+44	Maia Decker		Yale GD	77	74	80	79	78	10	388	2.06	78.00	77.60
+45	Alex Zhu	Novice	UW retiring any 2nd now	78	78	76	75	81	10	388	2.06	77.33	77.60
+46	Emma Kelly		QDU the one that went to market	75	78	78	76	81	8	388	2.06	77.33	77.60
+47=	Amy Chang		Stanford TC	78	77	78	76	78	10	387	0.80	77.67	77.40
+47=	Benjamin Thomas		Stanford TC	78	77	78	76	78	10	387	0.80	77.67	77.40
+49	Ryan Gumlia		Yale GD	77	75	79	79	77	10	387	1.50	77.67	77.40
+50	Larissa Long	Novice	IND Phi Epsilon Nu Iota Sigma	79	77	75	81	75	8	387	2.33	77.00	77.40
+51	Sherry Shu		UWODS I can&#x27;t convert to miles officer	76	78	79	77	76	9	386	1.17	77.00	77.20
+52	Eyas Valdez		IND Vasuvia Missionaries	77	78	79	79	73	8	386	2.23	78.00	77.20
+53	Aaron Mesa		Yale MS	75	78	74	80	78	11	385	2.19	77.00	77.00
+54	Hong Meng Yam	Novice	Stanford TY	82	77	76	76	74	9	385	2.68	76.33	77.00
+55	Adam Ursenbach		UWODS I can&#x27;t convert to miles officer	75	79	77	76	77	9	384	1.33	76.67	76.80
+56	Raymond Qiu		Hybrid do you know how loud 5 men a	82	76	75	75	76	9	384	2.64	75.67	76.80
+57=	Harshitha Dasari		USC DL	76	78	76	77	76	9	383	0.80	76.33	76.60
+57=	Anna Liu		USC DL	76	78	76	77	76	9	383	0.80	76.33	76.60
+59	Fiona Gervin		IND no but i&#x27;m actually retiring fr th	77	75	79	77	75	6	383	1.50	76.33	76.60
+60	Caroline Colclasure	Novice	Cornell GC	76	75	75	78	78	7	382	1.36	76.33	76.40
+61	Faith Liu		Rochester IL	78	76	78	74	76	8	382	1.50	76.67	76.40
+62	Anais Kneppers		IND Strong, Secure and Engaged	78	77	73	78	76	9	382	1.85	77.00	76.40
+63	Vasu Kamra		IND Vasuvia Missionaries	76	78	78	77	73	8	382	1.85	77.00	76.40
+64	Charles Liu	Novice	IND no but i&#x27;m actually retiring fr th	77	74	79	75	76	6	381	1.72	76.00	76.20
+65	Aiza Nygman	Novice, ESL	Drexel Dragon Tales	76	77	74	77	76	9	380	1.10	76.33	76.00
+66	Eve Pigat	Novice	MDU Mercedes-Benz	76	76	78	76	74	8	380	1.26	76.00	76.00
+67	Stine Isak		Rochester IL	78	76	77	74	75	8	380	1.41	76.00	76.00
+68	Katie Hillemeyer		MDU the unrizzable speak	78	73	78	74	77	8	380	2.10	76.33	76.00
+69	Alex Zhang	Novice, ESL	Cornell AS	77	79	73	76	74	8	379	2.14	75.67	75.80
+70	Guo Chen	Novice	UW BC	78	76	72	75	78	9	379	2.23	76.33	75.80
+71	Sophia Zuo	Novice	Princeton C	72	78	74	79	76	7	379	2.56	76.00	75.80
+72	Thien Lam Nguyen	Novice, ESL	UBC NW	76	77	76	76	73	8	378	1.36	76.00	75.60
+73	Genevieve Moore	Novice	Cornell GC	75	75	74	76	78	7	378	1.36	75.33	75.60
+74	Kelvin Sheppard	Novice	Guelph Tab Toppers	77	76	77	72	76	8	378	1.85	76.33	75.60
+75	Annabelle Katz	Novice	UBC Verba Invicta	75	75	76	79	73	7	378	1.96	75.33	75.60
+76	Ananya Bose		UW BC	78	76	72	75	77	9	378	2.06	76.00	75.60
+77	Allen Zhu		Hybrid do you know how loud 5 men a	79	77	74	74	74	9	378	2.06	75.00	75.60
+78	Jesenia Parthasarathy	Novice	Chicago Adam&#x27;s Apple	77	75	79	76	71	8	378	2.65	76.00	75.60
+79	Emily Paulin		Princeton B	75	76	81	75	71	7	378	3.20	75.33	75.60
+80	John Washburn	Novice	MDU Mercedes-Benz	76	75	77	74	75	8	377	1.02	75.33	75.40
+81	Brenna McConnell		Colgate DM	77	74	76	77	73	8	377	1.62	75.67	75.40
+82	Maja Grandinetti		UBC Team Barbie	76	76	78	74	73	8	377	1.74	75.33	75.40
+83	Speaker 2		Mood Swing	75	77	76	77	72	7	377	1.85	76.00	75.40
+84	Manon Melkonyan	Novice	UBC Verba Invicta	75	75	75	79	73	7	377	1.96	75.00	75.40
+85	Erica Firouzbehi	Novice	Guelph Tab Toppers	78	76	77	72	74	8	377	2.15	75.67	75.40
+86	Adam Jensen	Novice	Chicago Adam&#x27;s Apple	76	75	77	78	71	8	377	2.42	76.00	75.40
+87	Khaled Rajan	Novice	QDU RV	74	76	76	75	75	7	376	0.75	75.33	75.20
+88	Sefat Uddin Samee	Novice, ESL	Windsor NS	73	75	76	76	76	7	376	1.17	75.67	75.20
+89	Josephine DeBono		Colgate DM	76	74	76	77	73	8	376	1.47	75.33	75.20
+90	Elaine Jiang	Novice	McMaster JZ	76	75	78	72	75	7	376	1.94	75.33	75.20
+91	Alex Horoyski	Novice	UW Rhetorical Roundabouts	76	79	74	74	73	6	376	2.14	74.67	75.20
+92	Skylar Kleinman	Novice	Cornell AS	77	78	72	76	73	8	376	2.32	75.33	75.20
+93	Richard Zhang	Novice	McMaster JZ	75	74	79	72	76	7	376	2.32	75.00	75.20
+94	Navreet Sidhu		Carleton SR	73	78	76	72	76	8	375	2.19	75.00	75.00
+95	Advait Sangle	Novice	UW Rhetorical Roundabouts	77	79	73	72	74	6	375	2.61	74.67	75.00
+96	Mya Koffie	Novice	Princeton C	69	77	73	78	78	7	375	3.52	76.00	75.00
+97	Cheryl Wu		UBC NW	76	75	75	74	74	8	374	0.75	74.67	74.80
+98	Victoria Moldovan	Novice	UBC Team Barbie	75	76	76	74	73	8	374	1.17	75.00	74.80
+99	Richard Zhu	Novice	Princeton B	74	75	79	75	71	7	374	2.56	74.67	74.80
+100	Pedro Proano	ESL	IND Strong, Secure and Engaged	76	75	72	75	75	9	373	1.36	75.00	74.60
+101	Brianna Wright		Colgate MW	77	75	73	74	74	7	373	1.36	74.33	74.60
+102	Jessie Yang	Novice	UWODS 5 cents of gas	76	72	75	78	72	7	373	2.33	74.33	74.60
+103	Temitope Ogundare		RUN OJ	79	75	71	73	75	5	373	2.65	74.33	74.60
+104	Shrika Vejandla	Novice	QDU RV	75	74	75	74	74	7	372	0.49	74.33	74.40
+105	Faraan Rashid	Novice	Windsor UF	74	73	75	76	74	8	372	1.02	74.33	74.40
+106	Kyla Goulet-Kilgour	Novice	EDS lightning thieves	75	74	76	74	73	6	372	1.02	74.33	74.40
+107	Tessa Smith		UWODS 5 cents of gas	75	73	74	77	73	7	372	1.50	74.00	74.40
+108	Alexander Bavalsky		Yale BB	77	75	69	78	73	5	372	3.20	75.00	74.40
+109	William Berry	Novice	Yale BB	78	74	69	78	73	5	372	3.38	75.00	74.40
+110	Muriel Wang		UW BlackPink	74	74	73	76	74	6	371	0.98	74.00	74.20
+111	Ted Ren		UW BlackPink	74	75	72	76	74	6	371	1.33	74.33	74.20
+112	Fei Wu	ESL	IND Parapropalaeohoplophorus with an i	73	76	72	76	74	6	371	1.60	74.33	74.20
+113	Kira Waldhalm	Novice	Middlebury SW	76	71	75	75	74	6	371	1.72	74.67	74.20
+114	Louis-Philippe Bateman		IND Parapropalaeohoplophorus with an i	73	76	71	76	75	6	371	1.94	74.67	74.20
+115	HH swing		RUN SS	74	80	76	68	73	5	371	3.92	74.33	74.20
+116	Umayer Khan	Novice	Windsor UF	73	73	75	75	74	8	370	0.89	74.00	74.00
+117	Saad Rizwan		Carleton SR	73	77	73	72	75	8	370	1.79	73.67	74.00
+118	Julie Jang		RUN OJ	77	74	71	74	74	5	370	1.90	74.00	74.00
+119	Taira Mehta		UW ZM	75	74	76	75	70	7	370	2.10	74.67	74.00
+120	Siya Srivastava	Novice	RUN SS	73	79	77	69	72	5	370	3.58	74.00	74.00
+121	William Monteith Adams		UBC OW	77	74	79	65	75	6	370	4.82	75.33	74.00
+122	Chichi Sharma	Novice	UWODS stranded in Kingston	73	73	74	75	74	7	369	0.75	73.67	73.80
+123	Elaine Zhao		UW ZM	75	74	75	75	70	7	369	1.94	74.67	73.80
+124	Natalie George	Novice	Windsor NS	70	74	76	75	74	7	369	2.04	74.33	73.80
+125	Grace Wilson		HWS Octopuses	72	73	75	75	73	5	368	1.20	73.67	73.60
+126	Robin Rhodes		IND Too Much University	73	73	74	76	72	5	368	1.36	73.33	73.60
+127	Faheemah Darsot	Novice	McMaster BD	74	74	76	72	72	4	368	1.50	73.33	73.60
+128	Megan Brown	Novice	McMaster BL	75	76	71	74	72	5	368	1.85	73.67	73.60
+129	Ani Hamm	Novice	Middlebury HS 2	75	72	77	74	70	6	368	2.42	73.67	73.60
+130	Speaker 1		Swing State	76	78	67	75	72	6	368	3.83	74.33	73.60
+131	Kyla Silva	Novice	UWODS is this a curb?	74	73	74	71	75	6	367	1.36	73.67	73.40
+132	Aria Saines	Novice	Middlebury SW	73	70	75	75	74	6	367	1.85	74.00	73.40
+133	Danté Fosterdelmundo		EDS BF	75	77	72	71	72	3	367	2.24	73.00	73.40
+134	Liam Matthes	Novice, ESL	Middlebury AM	77	72	74	70	74	4	367	2.33	73.33	73.40
+135	JJ Marr	Novice	IND Too Much University	73	73	72	75	73	5	366	0.98	73.00	73.20
+136	Chirag Singhal	Novice, ESL	UWODS stranded in Kingston	72	72	72	75	75	7	366	1.47	73.00	73.20
+137	Kyle Mayers		Colgate MW	76	73	70	74	73	7	366	1.94	73.33	73.20
+138	Cleo Shaw	Novice	Middlebury HS 2	75	71	77	73	70	6	366	2.56	73.00	73.20
+139	John Hanson		HWS The Editors	74	74	73	72	72	5	365	0.89	73.00	73.00
+140	Nitin Alagu	Novice	Carleton Bribery Society	73	71	73	75	73	4	365	1.26	73.00	73.00
+141	Hudson Chou	Novice	HWS ToronTussy	75	74	73	74	69	3	365	2.10	73.67	73.00
+142	Gayatri Sharma	Novice	UWODS is this a curb?	76	73	70	71	75	6	365	2.28	73.00	73.00
+143	Monjola Oshinaike	Novice	UBC OW	75	73	79	65	73	6	365	4.56	73.67	73.00
+144	Hayden Strachan	Novice	Carleton Bribery Society	73	70	73	75	73	4	364	1.60	73.00	72.80
+145	Maria Corcoran	Novice	EDS lightning thieves	73	73	74	72	71	6	363	1.02	72.67	72.60
+146	Jonathan Eaton		Middlebury HS	76	73	74	70	70	4	363	2.33	72.33	72.60
+147	Tymofii Trakhachov	ESL	HWS Octopuses	69	72	73	75	73	5	362	1.96	72.67	72.40
+148	Noor Butt	Novice	McMaster BD	74	69	75	72	72	4	362	2.06	72.67	72.40
+149	Raya Mazhar	Novice	Windsor NR	72	76	74	69	71	3	362	2.42	72.33	72.40
+150	Norma Nizam	Novice	Windsor NR	71	76	75	69	71	3	362	2.65	72.33	72.40
+151	Amylee Bourgault	Novice, ESL	EDS BF	74	77	70	70	71	3	362	2.73	71.67	72.40
+152	Awa Haidara		HWS ToronTussy	74	73	73	72	69	3	361	1.72	72.67	72.20
+153	Ryan Coe	Novice	HWS The ‘Mericans	71	73	72	75	70	3	361	1.72	72.00	72.20
+154	Kyle Mast		HWS The Editors	73	73	72	71	71	5	360	0.89	72.00	72.00
+155	Alexander (Sasha) MacCluskey	Novice	HWS The ‘Mericans	71	72	72	74	70	3	359	1.33	71.67	71.80
+156	Jasmine Goncalves	Novice	HWS Arguably the Best	72	73	71	71	70	4	357	1.02	71.33	71.40
+157	Leonardo Bonacci	Novice	HWS Arguably the Best	71	74	71	71	70	4	357	1.36	71.00	71.40
+158	Christie Lam	Novice	McMaster BL	72	72	68	72	70	5	354	1.60	71.33	70.80
+159	Karina Shah	Novice	Colgate KS	70	71	70	72	70	4	353	0.80	70.33	70.60
+160	Will Koszegi	Novice	Colgate KS	66	71	71	73	71	4	352	2.33	71.00	70.40
+161	Fenya Lyn Walter	Novice, ESL	Middlebury AM	77	50	74	72	74	4	347	9.83	73.33	69.40
+162	Speaker 1		Mood Swing	74	77	—	75	72	7	298	1.80	74.50	74.50
+163	Abbott Howe		Middlebury HS	—	75	75	71	71	4	292	2.00	73.00	73.00
+164	Speaker 2		Swing State	77	—	65	73	71	6	286	4.33	72.00	71.50
+165	Piya Parmar	Novice	Guelph is the best	73	—	71	74	66	1	284	3.08	72.00	71.00
+166	George Dumitru	Novice	Guelph is the best	73	—	72	72	65	1	282	3.20	72.00	70.50
+167	Izak Wallage	Novice	McMaster WY	68	70	70	63	—	1	271	2.86	69.00	67.75
+168	Edrine Marie Yumang	Novice	McMaster WY	68	70	—	—	—	1	138	1.00	69.00	69.00
+169=	Speaker 1		swing states	—	75	—	—	—	2	75	0.00	75.00	75.00
+169=	Speaker 2		swing states	—	75	—	—	—	2	75	0.00	75.00	75.00

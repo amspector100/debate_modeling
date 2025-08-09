@@ -1,0 +1,229 @@
+Rk	name	category	team	R1	R2	R3	R4	R5	Total	Avg	Stdev
+1	Amitai Ben Porat	ESL	OUI A	81	82	85	83	86	417	83.40	1.85
+2	Tejas Subramaniam		Stanford B	82	84	84	84	81	415	83.00	1.26
+3	Elizabeth Li		Stanford B	82	82	82	83	82	411	82.20	0.40
+4	Matt Mauriello		Harvard A	83	80	81	85	81	410	82.00	1.79
+5	Ayal Mor	ESL	OUI A	81	81	82	81	84	409	81.80	1.17
+6=	Max Rosen		Cambridge C	79	82	82	81	84	408	81.60	1.62
+6=	Wajeeh Maaz		Manchester A	83	82	81	82	80	408	81.60	1.02
+6=	Ryan Lafferty		Dartmouth A	81	78	81	85	83	408	81.60	2.33
+9	Humaid Saleem		Harvard A	82	78	81	85	81	407	81.40	2.24
+10=	Sourodip Paul	ESL	Cambridge C	77	81	83	81	84	406	81.20	2.40
+10=	Umar Fazlan	ESL, Novice	Manchester B	81	83	79	81	82	406	81.20	1.33
+12	Lucie Slamova		Manchester A	83	80	80	82	80	405	81.00	1.26
+13	Manuel Machorro		Bates A	81	82	81	78	81	403	80.60	1.36
+14	Laura Serafine Pilmark	ESL	Copenhagen A	81	78	81	83	79	402	80.40	1.74
+15=	Martha Johanne Schou	ESL	Copenhagen A	81	78	81	81	80	401	80.20	1.17
+15=	Aarit Bhattacharya		Imperial A	82	81	84	75	79	401	80.20	3.06
+15=	Matthew Hamer		Imperial A	82	79	83	78	79	401	80.20	1.94
+15=	Aniket Godbole		LSE A	78	82	77	80	84	401	80.20	2.56
+15=	Jacquelynn Lin		PDP A	79	77	79	82	84	401	80.20	2.48
+15=	Cyrus Braden		Edinburgh C	78	81	78	86	78	401	80.20	3.12
+21=	Olivia Arbour	Novice	Cambridge A	78	81	81	78	82	400	80.00	1.67
+21=	Kristjan Suuder	ESL	Tartu A	80	81	78	81	80	400	80.00	1.10
+23=	Arjun Gunalan		LSE A	77	82	77	81	82	399	79.80	2.32
+23=	Afzal Hussain		PDP A	79	78	78	81	83	399	79.80	1.94
+23=	Eli Ferrell		Edinburgh C	77	79	77	85	81	399	79.80	2.99
+23=	Harvey Olden		GUU A	76	81	80	82	80	399	79.80	2.04
+27=	Alexandra McCreadie		Aberystwyth A	77	78	80	79	84	398	79.60	2.42
+27=	Joshua Low		Cambridge A	77	80	80	78	83	398	79.60	2.06
+27=	Yeonwoo Sim	Novice	KCL B	77	81	82	76	82	398	79.60	2.58
+27=	Stefan Milicescu	ESL	LSE B	80	78	82	79	79	398	79.60	1.36
+27=	Sheryar Fazal		PDP C	80	82	78	76	82	398	79.60	2.33
+27=	Rahul Kalavagunta		PDP D	78	79	83	76	82	398	79.60	2.58
+27=	Bess Olshen		Stanford A	77	81	81	81	78	398	79.60	1.74
+27=	Rob Fitzpatrick		UCD L&amp;H A	79	76	82	79	82	398	79.60	2.24
+27=	Madeleine Wu		Dartmouth A	78	78	80	82	80	398	79.60	1.50
+36=	Kaustubh Jain		PDP C	79	82	78	76	82	397	79.40	2.33
+36=	Sophia Zuo		PDP D	77	79	82	77	82	397	79.40	2.24
+36=	Tanel Mütt	ESL	Tartu A	79	80	78	82	78	397	79.40	1.50
+39=	Zach Godley-McAvoy		Aberystwyth A	78	77	80	78	83	396	79.20	2.14
+39=	Oyuka Lyndon	ESL	Bates A	78	81	80	76	81	396	79.20	1.94
+39=	Alishba Irfan		Edinburgh B	79	77	79	81	80	396	79.20	1.33
+39=	Arjun Raman		KCL A	78	81	80	78	79	396	79.20	1.17
+39=	Adrianne Ward		UCD L&amp;H A	78	78	80	78	82	396	79.20	1.60
+44=	Joshua Stone		KCL B	77	82	81	75	80	395	79.00	2.61
+44=	Sajid Farook		Stanford C	76	78	80	80	81	395	79.00	1.79
+44=	Gabriel Frank-McPheter		Stanford A	75	81	80	81	78	395	79.00	2.28
+44=	Mahathir Mahmud	ESL	GUU A	76	80	79	81	79	395	79.00	1.67
+44=	Nikhil Akappuram	ESL	Bristol A	79	80	78	79	79	395	79.00	0.63
+49=	Diego Castillo		Brown A	77	79	78	77	83	394	78.80	2.23
+49=	Abdullah Atassi		Manchester B	79	82	77	77	79	394	78.80	1.83
+49=	Ivan Toh		Stanford C	76	78	79	81	80	394	78.80	1.72
+49=	Ziyad anwer		TCD Hist A	75	79	78	82	80	394	78.80	2.32
+49=	Pavle Antonijević	ESL	Belgrade A	82	72	81	78	81	394	78.80	3.66
+49=	Muhyuddin Ahsan	ESL	Malaya A	78	81	81	79	75	394	78.80	2.23
+49=	George Fragkiadakis	ESL	Athens A	76	81	77	79	81	394	78.80	2.04
+49=	Panagis Gouvelis	ESL	Athens A	76	81	78	79	80	394	78.80	1.72
+49=	Rohan Campion		UCL E	82	77	81	75	79	394	78.80	2.56
+58	Nilabh Agrawal		UBC A	78	80	80	79	76	393	78.60	1.50
+59=	Esme Thornhill-Davis		Edinburgh B	78	77	78	80	79	392	78.40	1.02
+59=	Rehan Haneef		TCD Hist A	75	79	77	81	80	392	78.40	2.15
+59=	Wesley Pu	ESL	Malaya A	76	80	82	79	75	392	78.40	2.58
+62=	Anas Zaharim	ESL	IIUM A	79	78	77	77	80	391	78.20	1.17
+62=	Ollie Braden		PDP E	78	77	79	79	78	391	78.20	0.75
+62=	Fatima Haider		PDP E	79	77	78	80	77	391	78.20	1.17
+62=	Zachary Too		Warwick A	77	78	76	78	82	391	78.20	2.04
+62=	Manav Dhaliwal		UCL E	78	77	81	75	80	391	78.20	2.14
+67=	Sandeep Tissaaratchy	ESL	HWS A	77	82	76	74	81	390	78.00	3.03
+67=	Michele Liu	Novice	LSE B	78	77	80	78	77	390	78.00	1.10
+67=	Ryan Gumlia		Yale A	82	75	75	78	80	390	78.00	2.76
+67=	Emily Chen		UBC A	77	81	79	78	75	390	78.00	2.00
+67=	Daniel Svirsky		Western A	77	74	77	83	79	390	78.00	2.97
+67=	Harry Aickin		GUU B	78	76	79	77	80	390	78.00	1.41
+73=	Molly Callaghan		Harvard B	79	73	81	78	78	389	77.80	2.64
+73=	Ricky Jin	ESL	Harvard D	78	79	75	77	80	389	77.80	1.72
+73=	Alex Lee	Novice	Harvard D	79	78	75	77	80	389	77.80	1.72
+73=	Lamia Nur Rahman	ESL	HWS A	77	82	76	73	81	389	77.80	3.31
+73=	Claire Beamer		Stanford E	81	77	76	76	79	389	77.80	1.94
+73=	Alyssa Mills		GUU B	79	78	77	76	79	389	77.80	1.17
+79=	Felix Reischl	ESL	Berlin A	77	77	80	77	77	388	77.60	1.20
+79=	Henry Clement-Jones		KCL A	78	78	78	76	78	388	77.60	0.80
+79=	Judah Purwanto		UCL B	73	77	78	80	80	388	77.60	2.58
+79=	Felix Leonhardt		Yale A	82	75	74	76	81	388	77.60	3.26
+79=	Andrew Liu		Western A	78	73	78	81	78	388	77.60	2.58
+84=	Jason Shan		Brown A	77	77	77	75	81	387	77.40	1.96
+84=	Maria Xu		Harvard B	80	74	77	78	78	387	77.40	1.96
+84=	Santi Jiminez-Rowe		UCL C	78	76	78	80	75	387	77.40	1.74
+84=	Ruby McIntee	Novice	Edinburgh A	77	76	77	79	78	387	77.40	1.02
+84=	Kristina Lazić	ESL	Belgrade A	81	72	80	75	79	387	77.40	3.38
+84=	Tai Kenji	ESL, Novice	Warwick A	76	77	76	78	80	387	77.40	1.50
+84=	Ricky Rojas		Stanford D	76	80	77	76	78	387	77.40	1.50
+84=	Ritabrata Mitra	ESL	Edinburgh D	76	79	79	76	77	387	77.40	1.36
+84=	Aimee Morris		Bristol A	80	78	77	76	76	387	77.40	1.50
+93	Alice Xu		Sciences Po A	78	75	79	73	81	386	77.20	2.86
+94=	Atifa	ESL	IIUM A	78	76	75	76	80	385	77.00	1.79
+94=	Emma Blemaster		Stanford E	81	76	75	76	77	385	77.00	2.10
+94=	Rick Tan		UCL A	75	76	78	78	78	385	77.00	1.26
+94=	Ryan Tiedemann		Edinburgh D	76	80	78	76	75	385	77.00	1.79
+98=	Manav Mittal		Bates B	79	73	77	77	78	384	76.80	2.04
+98=	Teymour Aldridge	Novice	Zurich A	81	74	77	77	75	384	76.80	2.40
+98=	Rashrvin Pillay	ESL	Malaya B	78	78	75	74	79	384	76.80	1.94
+98=	Stanley Rozenblit		Stanford D	76	78	77	76	77	384	76.80	0.75
+102=	Tosca Neumann	ESL	Bates B	77	74	77	77	78	383	76.60	1.36
+102=	Alldon Tan		Cambridge B	79	73	77	78	76	383	76.60	2.06
+102=	Mirtel Etverk	ESL	Maastricht A	74	75	76	79	79	383	76.60	2.06
+102=	Kyle Chong	Novice	LSE D	76	77	73	79	78	383	76.60	2.06
+102=	Brian Kam		UCL A	77	77	77	77	75	383	76.60	0.80
+102=	Miya Turner	Novice	St Andrews B	81	74	76	76	76	383	76.60	2.33
+108=	Tousif Tanvir Alam	ESL, Novice	KCL C	79	81	75	75	72	382	76.40	3.20
+108=	Thom Lolkema	ESL	Sciences Po A	76	75	78	73	80	382	76.40	2.42
+108=	Ember Tan		UCL C	76	75	76	79	76	382	76.40	1.36
+108=	Andrew Lee		Zurich A	80	74	77	76	75	382	76.40	2.06
+108=	Yorgo Kyriakopoulos	ESL	Bristol B	77	76	76	76	77	382	76.40	0.49
+113=	Karlin Tabbara	ESL	Berlin A	76	76	79	75	75	381	76.20	1.47
+113=	Jessica Tuchin		Brown B	79	76	75	73	78	381	76.20	2.14
+113=	James Cater		Cambridge D	73	77	74	77	80	381	76.20	2.48
+113=	James Tam	Novice	Cambridge D	73	78	75	76	79	381	76.20	2.14
+113=	Anthony Gong	Novice	Cambridge B	79	73	76	77	76	381	76.20	1.94
+113=	Nicole Cheng	ESL	KCL C	79	81	74	75	72	381	76.20	3.31
+119=	Sergey Shkolnikov	Novice	Berlin B	76	76	79	75	74	380	76.00	1.67
+119=	Tory Nguyen	ESL	Maastricht A	74	76	76	78	76	380	76.00	1.26
+119=	Frederick Steinmann	Novice	Imperial B	78	77	73	76	76	380	76.00	1.67
+119=	Isaac Lo	Novice	LSE D	75	75	75	77	78	380	76.00	1.26
+119=	Henrietta Vanni		TCD Phil A	77	75	77	76	75	380	76.00	0.89
+119=	Hilary Vanni		TCD Phil A	76	74	78	76	76	380	76.00	1.26
+119=	Mark Heanue		TCD Phil B	79	79	78	64	80	380	76.00	6.03
+119=	Nicolas Ivanov	ESL, Novice	UCD L&amp;H B	73	76	78	76	77	380	76.00	1.67
+119=	Nathan Tamkin		UCL B	73	74	77	79	77	380	76.00	2.19
+128=	Russell Choy	Novice	Cambridge E	79	72	73	78	77	379	75.80	2.79
+128=	Aniqa Fatima	ESL, Novice	Cardiff A	77	77	77	73	75	379	75.80	1.60
+128=	Mustafa Khan		Imperial B	78	77	73	76	75	379	75.80	1.72
+128=	Barbora Votlučková	ESL, Novice	UCD L&amp;H B	73	77	78	75	76	379	75.80	1.72
+128=	Stéphane de Bairéid		UCD L&amp;H C	78	78	73	76	74	379	75.80	2.04
+128=	Yap Ern See	ESL	Malaya B	77	77	74	74	77	379	75.80	1.47
+128=	Brian Jones		Bristol B	76	77	74	75	77	379	75.80	1.17
+135	Abigail Warren Jones	Novice	Cardiff A	78	76	76	74	74	378	75.60	1.50
+136=	Marc Bélorgey	ESL	Berlin B	76	76	79	72	74	377	75.40	2.33
+136=	James Afford		Brown B	79	74	73	73	78	377	75.40	2.58
+136=	Zihan Tian	Novice	Cambridge E	78	72	73	78	76	377	75.40	2.50
+139=	Boen Beavers		Colgate B	75	75	74	76	76	376	75.20	0.75
+139=	Anaira Jalan	Novice	Imperial C	79	76	76	67	78	376	75.20	4.26
+139=	Liadáin O&#x27;Sullivan		UCD LawSoc A	77	76	74	74	75	376	75.20	1.17
+139=	Myra Kong	ESL	St Andrews B	77	74	75	75	75	376	75.20	0.98
+139=	Hiroko Kawase		Yale B	77	76	77	70	76	376	75.20	2.64
+144=	Ben Dokupil		Colgate B	74	75	76	73	77	375	75.00	1.41
+144=	Hunter Haynes		Harvard C	77	75	73	77	73	375	75.00	1.79
+144=	Aral Nadeem Majid	Novice	Imperial C	78	77	76	66	78	375	75.00	4.56
+144=	Adrianna Mazur	ESL	TCD Phil B	78	78	78	63	78	375	75.00	6.00
+144=	Niall O’Meara	Novice	TCD Phil C	76	74	77	74	74	375	75.00	1.26
+144=	Kanva Thakeria	ESL, Novice	UCL D	78	74	75	73	75	375	75.00	1.67
+144=	Asmi Banerjee		Warwick B	73	76	78	74	74	375	75.00	1.79
+151=	Diego Garcia-Moreno	ESL, Novice	Harvard C	76	77	72	76	73	374	74.80	1.94
+151=	Bryan Sim	ESL	LSE C	80	76	76	64	78	374	74.80	5.60
+151=	Happy Ng	ESL	UCL D	78	73	75	73	75	374	74.80	1.83
+151=	Emma Flanagan		UCD LawSoc B	73	75	75	74	77	374	74.80	1.33
+155=	Annabelle Kim		Brown C	75	69	78	76	75	373	74.60	3.01
+155=	James O’Dowd	Novice	TCD Phil C	75	74	76	73	75	373	74.60	1.02
+155=	Silvia Greco		Warwick B	71	75	79	74	74	373	74.60	2.58
+158=	Irene Zhao		Brown C	73	70	77	77	75	372	74.40	2.65
+158=	Minnie Mansfield	Novice	UCD LawSoc B	71	74	76	74	77	372	74.40	2.06
+158=	Maya Mufson		Yale B	76	77	76	70	73	372	74.40	2.58
+158=	Shivanii Arun		ADS A	75	77	76	73	71	372	74.40	2.15
+162=	Mikhail Taufiq	ESL, Novice	LSE C	79	76	76	65	75	371	74.20	4.79
+162=	Hugh Fitzpatrick	Novice	UCD LawSoc A	76	75	73	74	73	371	74.20	1.17
+162=	Olivia Monahan	Novice	UCD L&amp;H C	76	74	73	76	72	371	74.20	1.60
+162=	Jay Currie		Exeter A	74	75	77	70	75	371	74.20	2.32
+166=	Isabella Priego Wessel	ESL	Berlin C	75	74	76	69	76	370	74.00	2.61
+166=	Hunter Swilling		Liverpool A	75	74	72	72	77	370	74.00	1.90
+166=	Ksenia Baatz	Novice	St Andrews A	74	73	75	73	75	370	74.00	0.89
+169=	Abdul Rafay	ESL	Bates C	77	72	77	68	75	369	73.80	3.43
+169=	Daragh O&#x27;Kane		RHUL B	78	74	71	73	73	369	73.80	2.32
+169=	Isaac Copley	Novice	St Andrews A	73	73	76	73	74	369	73.80	1.17
+169=	Simone David		Miami B	76	75	75	72	71	369	73.80	1.94
+169=	Charlie Lam	Novice	Cambridge F	75	76	78	67	73	369	73.80	3.76
+174=	Takeshi Himeno	ESL	Berlin C	75	74	74	69	76	368	73.60	2.42
+174=	Emily Danzinger		Miami A	75	74	74	73	72	368	73.60	1.02
+176=	Michael O’Shaughnessy	Novice	KCL D	76	71	73	70	77	367	73.40	2.73
+176=	Nikita Kleyner		Miami B	76	74	75	72	70	367	73.40	2.15
+178=	Eleanor Murdoch	Novice	Liverpool A	73	74	71	72	76	366	73.20	1.72
+178=	Prachi Agrawal	Novice	TCD Hist B	74	75	75	74	68	366	73.20	2.64
+178=	Charles Fuad	Novice	Cambridge F	75	76	76	68	71	366	73.20	3.19
+181=	Ari Hahn		Bates C	77	70	76	67	75	365	73.00	3.85
+181=	Lívia Mariano Fordellone	ESL, Novice	KCL D	77	71	72	69	76	365	73.00	3.03
+181=	Seb Magnago		Norwich B	75	76	72	72	70	365	73.00	2.19
+181=	Rithvik Kumar	Novice	TCD Hist B	76	73	74	74	68	365	73.00	2.68
+181=	Larsson Wing		Miami A	75	74	73	74	69	365	73.00	2.10
+186=	Oscar Stanley		Norwich A	74	74	68	72	76	364	72.80	2.71
+186=	Ryan Khellat	Novice	QMUL A	70	75	73	72	74	364	72.80	1.72
+186=	Makenzie Shilling	Novice	RHUL B	77	73	72	73	69	364	72.80	2.56
+186=	Liam Radford		Exeter A	68	75	76	72	73	364	72.80	2.79
+186=	Sophie Chen	ESL, Novice	ADS A	74	75	74	72	69	364	72.80	2.14
+191=	Bella Duarte	Novice	Colgate C	67	73	75	73	74	362	72.40	2.80
+191=	Alex Banks		Norwich A	74	74	68	72	74	362	72.40	2.33
+191=	Akshata Samaddar		Norwich B	76	69	74	71	72	362	72.40	2.42
+191=	Nikita Athwal		RHUL C	74	72	75	70	71	362	72.40	1.85
+191=	Anna Laouti	ESL, Novice	Sciences Po B	72	72	70	72	76	362	72.40	1.96
+191=	Isabel Porta	ESL, Novice	Sciences Po B	73	72	70	72	75	362	72.40	1.62
+197	Rayane Ourari	Novice	QMUL A	70	73	71	72	75	361	72.20	1.72
+198=	Bogdan Kaluderovic	ESL, Novice	ACG A	72	70	75	75	67	359	71.80	3.06
+198=	Alekos Chelmis	ESL, Novice	ACG A	72	71	75	74	67	359	71.80	2.79
+200	Sam Wolff	Novice	Colgate C	66	72	73	74	72	357	71.40	2.80
+201=	Josephine DeBono		Colgate A	70	71	74	69	72	356	71.20	1.72
+201=	Nia Videnova	Novice	RHUL A	75	73	68	72	68	356	71.20	2.79
+201=	Maciej Roszkowski		RHUL C	75	69	73	69	70	356	71.20	2.40
+201=	Yacine Sedour	Novice	Sciences Po C	72	72	68	71	73	356	71.20	1.72
+201=	Saffron Marshallsay		Reading A	70	70	73	68	75	356	71.20	2.48
+206=	Sophia Lee-Wlodek		Colgate A	69	73	73	68	72	355	71.00	2.10
+206=	Will Pridgeon		Reading A	70	70	73	69	73	355	71.00	1.67
+208=	Madeline Sidgwick	Novice	RHUL A	76	73	67	69	68	353	70.60	3.38
+208=	Owen Garrett	Novice	Sciences Po C	71	72	68	71	71	353	70.60	1.36
+210	Nikita Todt	ESL, Novice	TCD Phil D	70	69	71	68	72	350	70.00	1.41
+211	Alicja Zan	ESL, Novice	TCD Phil D	69	71	70	68	71	349	69.80	1.17
+212	Finlay Lloyd		Reading B	69	70	72	59	74	344	68.80	5.19
+213	Andres Sangiorgi	Novice	QMUL B	73	61	67	73	69	343	68.60	4.45
+214	Nathaniel Melody-Kane		Reading B	70	68	72	59	73	342	68.40	5.00
+215	Fatima Kazi	Novice	QMUL B	73	57	66	72	68	336	67.20	5.71
+216	Valeriu Carasel	ESL	Bucharest B	83	83	80	82	—	328	82.00	1.22
+217	Arina Dumitru	ESL	Bucharest B	81	81	78	82	—	322	80.50	1.50
+218	Katherine Gardner	Novice	Edinburgh A	78	77	76	78	—	309	77.25	0.83
+219	B1		Swing B	76	70	76	74	—	296	74.00	2.45
+220	Speaker 1		Swing C	75	72	67	70	—	284	71.00	2.92
+221	B2		Swing B	—	70	76	73	—	219	73.00	2.45
+222=	A1		Swing A	81	81	—	—	—	162	81.00	0.00
+222=	A2		Swing A	80	82	—	—	—	162	81.00	1.00
+224	Speaker D1		Swing D	—	—	72	81	—	153	76.50	4.50
+225	Speaker 2		Swing C	—	72	—	71	—	143	71.50	0.50
+226=	Mariana Icaza		PDP B	—	—	—	—	—	—	—	—
+226=	Genevieve Cox		PDP B	—	—	—	—	—	—	—	—
+226=	Speaker D2		Swing D	—	—	—	—	—	—	—	—

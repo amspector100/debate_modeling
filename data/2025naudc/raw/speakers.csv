@@ -1,0 +1,229 @@
+Rk	name	category	team	R1	R2	R3	R4	R5	R6	R7	Total	Stdev	Avg
+1	Amitai Ben Porat		Stanford 6	82	83	81	81	83	83	83	576	0.88	82.29
+2	Matt Mauriello		Stanford 6	81	83	81	82	83	83	81	574	0.93	82.00
+3	Tejas Subramaniam		Stanford 1	81	80	81	81	83	83	84	573	1.36	81.86
+4=	Jacob Silcoff		McGill 2	79	79	80	85	83	83	81	570	2.13	81.43
+4=	Elizabeth Li		Stanford 1	81	78	81	83	82	82	83	570	1.59	81.43
+6	Anders Woodruff		McGill 2	80	78	81	85	82	82	81	569	1.98	81.29
+7=	Arpi Yang		Hart House 1	81	83	78	82	83	80	79	566	1.81	80.86
+7=	Jaleelah Ammar		EDS 1	80	79	81	81	84	81	80	566	1.46	80.86
+9=	Karel Brandenbarg		McGill 1	81	80	81	79	81	83	79	564	1.29	80.57
+9=	Adam Banihani		Hart House 1	81	83	78	81	84	79	78	564	2.19	80.57
+11	Jenna Hong		Harvard 2	79	84	81	84	76	81	78	563	2.77	80.43
+12=	Ananya Ganesh		Harvard 1	80	84	81	81	80	80	75	561	2.47	80.14
+12=	Ted Chang		Harvard 3	82	81	81	77	82	76	82	561	2.36	80.14
+12=	Eve Pigat		McGill 1	81	80	79	79	80	81	81	561	0.83	80.14
+12=	Rahul Kalavagunta		Princeton 3	83	82	82	78	80	79	77	561	2.10	80.14
+16=	Tanya Chatterjee		Columbia 1	80	79	83	78	78	78	84	560	2.33	80.00
+16=	Stephanie Chen		Harvard 4	80	84	82	79	81	79	75	560	2.62	80.00
+18=	Molly Callaghan		Harvard 1	79	83	81	81	79	81	75	559	2.36	79.86
+18=	Tarun Ruschmeier		Princeton 3	83	81	82	78	77	80	78	559	2.10	79.86
+20=	Sajid Farook		Stanford 5	80	78	79	83	76	80	82	558	2.19	79.71
+20=	Ambika Grover		Harvard 4	81	83	82	78	80	79	75	558	2.49	79.71
+20=	Anais Kneppers		EDS 1	78	79	80	80	83	79	79	558	1.48	79.71
+23	Daniel Sheremeta		Harvard 2	80	83	80	83	76	80	75	557	2.87	79.57
+24	Alex Lee	Novice	Harvard 3	82	80	80	77	81	75	81	556	2.32	79.43
+25	Victor Tong		Columbia 2	78	79	80	80	77	80	80	554	1.12	79.14
+26	Robert Howden		Queen&#x27;s 5	81	78	81	78	80	79	76	553	1.69	79.00
+27=	Muhammad Dhafer		Stanford 5	77	77	79	81	76	80	82	552	2.10	78.86
+27=	Soren Jensen	Novice	Cornell 2	77	80	79	78	75	83	80	552	2.36	78.86
+27=	Vijay Tupper		McGill 4	80	80	78	75	79	78	82	552	2.03	78.86
+27=	Seamus Allen		Stanford 2	83	77	79	79	79	77	78	552	1.88	78.86
+27=	Emma Kelly		Queen&#x27;s 5	81	79	80	78	80	79	75	552	1.81	78.86
+32=	Rohan Sundaram		Columbia 1	78	78	81	78	77	76	83	551	2.25	78.71
+32=	Emma Blemaster		Stanford 2	83	78	79	80	79	75	77	551	2.31	78.71
+32=	Alex Zhu		Waterloo 1	81	77	79	77	78	79	80	551	1.39	78.71
+32=	Simon Yu		Hart House 3	79	78	80	80	76	81	77	551	1.67	78.71
+32=	Nilabh Agrawal		UBC 1	77	78	80	80	79	79	78	551	1.03	78.71
+37=	Faith Liu		Rochester 1	82	76	81	79	77	77	78	550	2.06	78.57
+37=	Charles Ndlovu		Rochester 1	80	77	82	80	77	76	78	550	1.99	78.57
+37=	David Zu		Hart House 3	79	78	78	80	76	81	78	550	1.50	78.57
+40=	Edgar Cheng	Novice	Columbia 2	76	78	79	79	78	78	81	549	1.40	78.43
+40=	Eamin Ahmed	Novice	Cornell 2	77	78	79	78	76	82	79	549	1.76	78.43
+40=	Crystal Zhang		Hart House 2	78	80	80	78	80	78	75	549	1.68	78.43
+43	Urfaan Sadid	Novice	McGill 3	80	78	77	83	75	81	74	548	3.01	78.29
+44=	Kevin Chen	Novice	Western 4	75	79	84	78	76	77	77	546	2.73	78.00
+44=	Emily Shi		Hart House 2	77	79	80	78	79	78	75	546	1.51	78.00
+44=	Andrew Liu		Western 1	78	79	76	80	78	77	78	546	1.20	78.00
+47=	Ryan Ham		Berkeley 1	77	76	78	77	80	78	79	545	1.25	77.86
+47=	Claire Chen		Queen&#x27;s 1	77	80	77	78	80	78	75	545	1.64	77.86
+47=	Sewon Jeon		UBC 1	76	78	78	78	79	79	77	545	0.99	77.86
+50=	Warren Chen		McGill 3	80	77	77	81	75	80	74	544	2.49	77.71
+50=	Bridget Li		McGill 4	78	79	77	73	78	78	81	544	2.25	77.71
+52=	Tanzim Hossain		Calgary 1	77	75	83	78	75	76	79	543	2.61	77.57
+52=	Justin Zhou		Berkeley 1	77	76	79	76	79	78	78	543	1.18	77.57
+52=	Richard Colgrove		UCLA 1	76	82	73	73	79	80	80	543	3.33	77.57
+52=	Advait Sangle		Waterloo 1	80	77	78	76	78	76	78	543	1.29	77.57
+52=	Giuseppe Di Massa	Novice	Yale 3	78	76	79	76	79	78	77	543	1.18	77.57
+52=	Sherry Shu		Western 1	78	79	74	79	78	76	79	543	1.76	77.57
+52=	Edward Wang		Western 3	76	78	78	79	79	77	76	543	1.18	77.57
+52=	Sophie Zhang	Novice	Hart House 8	79	81	76	78	78	75	76	543	1.92	77.57
+52=	Ethan Qiu	Novice	Hart House 8	79	82	77	80	77	74	74	543	2.77	77.57
+61=	Tony Chen	Novice	Western 4	76	78	82	76	77	76	77	542	1.99	77.43
+61=	William Berry		Yale 4	77	81	78	78	77	77	74	542	1.92	77.43
+61=	Sabrina Fox	Novice	USC 2	80	73	81	79	74	79	76	542	2.87	77.43
+64=	Fefe Montalvo		Yale 4	78	80	78	77	76	78	74	541	1.75	77.29
+64=	Maeve Goldman	Novice	Dartmouth 2	78	82	72	75	77	79	78	541	2.91	77.29
+66=	Taira Mehta		Waterloo 2	76	80	79	79	81	72	73	540	3.27	77.14
+66=	Ryan Buckner	Novice	USC 2	80	74	81	78	73	79	75	540	2.90	77.14
+66=	Anna Liu		USC 3	76	81	74	77	75	81	76	540	2.59	77.14
+69=	Darren Yang		Northwestern 1	78	76	76	75	76	79	79	539	1.51	77.00
+69=	Neo Way De		Hart House 4	80	77	78	80	76	73	75	539	2.39	77.00
+69=	Nimai Koneru		Hart House 4	79	77	79	77	77	75	75	539	1.51	77.00
+69=	Mahir Aziz		Hart House 9	77	76	77	77	81	73	78	539	2.20	77.00
+69=	Harshitha Dasari		USC 3	78	78	74	77	77	80	75	539	1.85	77.00
+69=	Annika Frankiss		Queen&#x27;s 1	75	80	75	77	80	78	74	539	2.27	77.00
+69=	Thien Lam Nguyen		UBC 3	75	80	78	75	74	78	79	539	2.14	77.00
+69=	Angela Zhang	Novice	Dartmouth 2	77	82	72	75	76	79	78	539	2.93	77.00
+77=	Alexa Murphy	Novice	Northwestern 1	78	78	74	75	76	77	80	538	1.88	76.86
+77=	Ellena Kim		UCLA 1	77	81	72	75	76	77	80	538	2.80	76.86
+77=	Eamon Roach		Hart House 9	78	74	77	77	81	73	78	538	2.47	76.86
+77=	Tessa Smith		Western 3	77	77	76	78	78	77	75	538	0.99	76.86
+77=	Justin Kim		Yale 1	76	78	78	75	79	76	76	538	1.36	76.86
+77=	Annie Wu	Novice	Queen&#x27;s 4	74	82	75	77	78	77	75	538	2.47	76.86
+83=	Christopher Li	Novice	McGill 6	76	76	78	76	78	79	74	537	1.58	76.71
+83=	Angad Phagura		Alberta 3	77	81	77	76	75	74	77	537	2.05	76.71
+83=	Alicia Leguizamón López	Novice	EDS 3	75	75	78	73	77	80	79	537	2.31	76.71
+86=	Eloic Malekzedah	Novice	McGill 6	77	76	78	76	77	79	73	536	1.76	76.57
+86=	Katie Jack		USC 1	76	81	74	74	80	75	76	536	2.61	76.57
+86=	Sophia Tyrrell-Knott		JHU 1	76	77	72	77	76	79	79	536	2.19	76.57
+89=	Darrius Tan	Novice	Stanford 4	74	79	72	77	78	77	78	535	2.32	76.43
+89=	Neil Roy Choudhury		Alberta 3	77	79	77	76	75	74	77	535	1.50	76.43
+89=	Elaine Zhao		Waterloo 2	77	80	78	78	80	71	71	535	3.58	76.43
+89=	Richard Kim		Yale 1	76	76	78	75	80	75	75	535	1.76	76.43
+93=	James Camp		Middlebury 1	76	76	77	77	79	76	73	534	1.67	76.29
+93=	Joseph Mai		Hart House 7	79	74	79	77	74	77	74	534	2.12	76.29
+93=	Oscar Lavitt	Novice	EDS 3	75	74	77	73	77	79	79	534	2.19	76.29
+93=	Jonathan Randall Bunjamin	Novice	UBC 3	76	80	77	75	74	77	75	534	1.83	76.29
+97=	Mya Koffie		Princeton 6	78	78	75	74	79	76	73	533	2.10	76.14
+97=	Ken Tieu		Alberta 2	80	76	76	74	77	77	73	533	2.10	76.14
+97=	Collin Goel	Novice	Berkeley 4	77	79	80	75	78	72	72	533	3.00	76.14
+97=	Hugo Kittell		USC 1	77	80	75	75	80	73	73	533	2.75	76.14
+97=	Lily Mckay-De Carvalho		Queen&#x27;s 2	76	76	78	78	70	78	77	533	2.64	76.14
+97=	Annabelle Katz		UBC 2	80	74	78	80	76	69	76	533	3.56	76.14
+97=	Michael Tsutagawa		JHU 1	76	76	72	74	76	81	78	533	2.64	76.14
+97=	Greta Batchelor	Novice	Dartmouth 1	76	77	78	73	77	76	76	533	1.46	76.14
+105=	Alex Parikh Briggs		Berkeley 4	77	78	80	75	78	72	72	532	2.88	76.00
+105=	Jaclyn Wang	Novice	Waterloo 3	75	79	79	78	74	73	74	532	2.39	76.00
+105=	Netra Easwaran		Yale 2	78	74	79	77	67	78	79	532	4.00	76.00
+105=	Kosar Hemmati		Hart House 7	81	72	78	77	74	77	73	532	2.93	76.00
+105=	Thomas André	Novice	Carleton 2	77	76	78	79	74	74	74	532	1.93	76.00
+105=	Ivan Guan	Novice	Queen&#x27;s 3	74	78	76	74	75	77	78	532	1.60	76.00
+111=	McEwen Reil		Hart House 11	78	77	74	75	81	70	76	531	3.18	75.86
+111=	Alex Wang	Novice	Queen&#x27;s 3	74	78	75	74	75	78	77	531	1.64	75.86
+111=	Simon Mackinnon	Novice	Queen&#x27;s 4	75	80	76	76	77	73	74	531	2.10	75.86
+111=	Manon Melkonyan		UBC 2	79	73	77	80	76	69	77	531	3.48	75.86
+111=	Mackenzie Wilson		Dartmouth 1	77	78	77	73	77	75	74	531	1.73	75.86
+116	Hudson Chou		HWS 5	71	74	79	73	79	77	77	530	2.86	75.71
+117=	Aria Saines		Middlebury 1	76	75	76	76	78	76	72	529	1.68	75.57
+117=	Elaine Gao	Novice	Princeton 6	76	77	75	74	77	77	73	529	1.50	75.57
+117=	Ibrahim Bilal		Hart House 11	78	76	75	75	79	71	75	529	2.38	75.57
+117=	Nirvan Bose	Novice	Western 5	76	75	78	77	73	76	74	529	1.59	75.57
+117=	Balraj Toor		Queen&#x27;s 2	75	74	78	77	72	77	76	529	1.92	75.57
+122=	Zander Jeinthanuttkanont	Novice	Yale 2	78	75	78	75	67	78	77	528	3.66	75.43
+122=	Erika Fonseca Cordeiro	Novice	Carleton 2	77	75	78	79	74	72	73	528	2.44	75.43
+124=	Haider Rizvi	Novice	Cornell 3	72	77	76	77	71	79	75	527	2.66	75.29
+124=	Sophia Kim	Novice	Stanford 4	73	78	71	75	77	75	78	527	2.43	75.29
+124=	Clarissa Zuo		UCLA 2	78	78	76	78	74	76	67	527	3.65	75.29
+127=	Skyler Shooer-Sampson	Novice	Middlebury 3	79	75	73	77	75	70	77	526	2.75	75.14
+127=	Kyla Coutts		Western 2	76	79	77	73	72	78	71	526	2.90	75.14
+127=	Nihal Ahmed	Novice	Waterloo 3	76	78	76	76	73	73	74	526	1.73	75.14
+127=	Parth Jain	Novice	Princeton 2	77	78	78	73	75	73	72	526	2.36	75.14
+131=	Natalie Roots-Nowakowski		Northwestern 2	77	75	78	69	79	75	72	525	3.25	75.00
+131=	Dhruv Kairon		Alberta 2	78	73	76	74	76	74	74	525	1.60	75.00
+131=	Caelystar Valentina Ng May Zher	Novice	UCLA 2	77	76	76	78	75	75	68	525	3.02	75.00
+131=	Yueqian Wang		EDS 2	78	76	79	72	71	74	75	525	2.73	75.00
+131=	Eric Peng		EDS 2	77	76	78	74	70	74	76	525	2.45	75.00
+136=	Jacob Franchi		HWS 4	74	78	74	76	73	76	73	524	1.73	74.86
+136=	Nathan Spencer	Novice	Princeton 2	78	78	75	73	75	73	72	524	2.23	74.86
+138	Ricky Zhou	Novice	Western 5	75	74	77	77	71	75	74	523	1.91	74.71
+139=	Jacky Li		Western 2	76	77	76	73	71	77	72	522	2.32	74.57
+139=	Esteban Valle		TEC CEM 1	76	75	77	71	73	76	74	522	1.92	74.57
+141=	Jacob Molina		Berkeley 3	77	77	76	78	70	71	72	521	3.06	74.43
+141=	Jasmeet Randhawa	Novice	Western 6	71	76	76	70	76	78	74	521	2.72	74.43
+143=	Leo Bonacci		HWS 4	73	78	74	75	73	76	71	520	2.12	74.29
+143=	Gianluca LoPorto		HWS 5	71	73	76	74	76	75	75	520	1.67	74.29
+143=	Lucas Yang		Northwestern 2	75	75	77	70	76	74	73	520	2.12	74.29
+146=	Sanjana Kumar	Novice	Princeton 7	75	77	75	67	72	78	75	519	3.40	74.14
+146=	Monmoy Maahdie		Calgary 4	79	76	75	73	68	73	75	519	3.14	74.14
+146=	Laiba Nasir	Novice	Calgary 6	71	77	76	74	75	74	72	519	1.96	74.14
+149=	Julia McCarthy	Novice	Middlebury 2	77	73	79	71	74	70	74	518	2.93	74.00
+149=	Jade Tombs		Alberta 7	74	80	76	72	75	68	73	518	3.42	74.00
+149=	Eyasu Yakob		Alberta 7	74	77	76	71	74	71	75	518	2.14	74.00
+149=	Stella Mizak	Novice	Calgary 6	73	76	75	72	75	76	71	518	1.85	74.00
+149=	Cyrus Bechtold	Novice	Western 6	70	75	75	69	76	78	75	518	3.02	74.00
+149=	Sophie Ng		Queen&#x27;s 6	78	77	72	70	70	76	75	518	3.07	74.00
+149=	Luis Marcos Villarreal Cárdenas		TEC CEM 1	76	75	74	72	73	74	74	518	1.20	74.00
+156=	Abhay Gupta		Cornell 1	76	78	71	75	75	75	67	517	3.40	73.86
+156=	Aashna Parikh	Novice	Princeton 5	77	63	75	74	74	79	75	517	4.73	73.86
+158=	William Lock		Cornell 1	76	76	71	75	76	75	67	516	3.19	73.71
+158=	Aelia Russell	Novice	Middlebury 2	77	73	77	72	74	71	72	516	2.25	73.71
+160=	Nicolas Jaimes	Novice	Cornell 3	73	78	70	75	68	76	75	515	3.25	73.57
+160=	Tanya Chawla	Novice	McGill 5	75	76	75	69	77	71	72	515	2.72	73.57
+160=	Sakshyam Pokharel	Novice	Princeton 5	76	63	75	74	74	79	74	515	4.62	73.57
+160=	Calvin Liu	Novice	Swarthmore 2	75	78	71	71	77	69	74	515	3.11	73.57
+160=	Natalie Derkowski		Calgary 3	73	76	73	75	73	75	70	515	1.84	73.57
+160=	Rikthipranadhik Mondal		Calgary 3	72	77	73	75	72	76	70	515	2.32	73.57
+166=	Kristal Lin	Novice	Middlebury 3	78	74	70	77	74	66	75	514	3.85	73.43
+166=	Olivia Tucker		Queen&#x27;s 6	78	78	71	68	71	73	75	514	3.50	73.43
+168=	Dylan Ballard	Novice	HWS 2	76	75	78	68	71	69	76	513	3.61	73.29
+168=	Randy Liu	Novice	Dartmouth 3	74	77	76	72	70	75	69	513	2.81	73.29
+170=	Amelia Taylor	Novice	McGill 5	74	76	76	69	76	70	70	511	2.98	73.00
+170=	Ravi Naidu		Swarthmore 1	75	78	78	67	69	72	72	511	3.93	73.00
+170=	Bruce Tong		Alberta 1	72	76	73	71	76	75	68	511	2.73	73.00
+170=	Murtaza Shiyaji		Berkeley 2	75	76	72	78	64	71	75	511	4.28	73.00
+174=	Azrina Hossain		Calgary 2	77	79	75	75	66	68	70	510	4.52	72.86
+174=	Showmee Zhou	Novice	Rochester 2	74	76	77	73	71	66	73	510	3.36	72.86
+174=	Coston Autry	Novice	Dartmouth 3	74	77	74	72	70	75	68	510	2.85	72.86
+177=	Journey Horeis	Novice	HWS 3	72	78	76	70	76	71	66	509	3.88	72.71
+177=	Eddie Lutz		Alberta 1	71	76	73	71	75	74	69	509	2.31	72.71
+177=	Rachel Renegado	Novice	Calgary 4	75	72	76	74	67	71	74	509	2.81	72.71
+177=	Preethi Mohan		Berkeley 2	75	75	73	77	65	70	74	509	3.73	72.71
+181=	Charlotte Hall	Novice	Swarthmore 2	72	76	74	70	75	70	71	508	2.26	72.57
+181=	Zachary Tessier	Novice	Alberta 5	75	73	70	69	70	73	78	508	2.97	72.57
+183=	Felix Zhang	Novice	Carleton 3	74	73	76	75	66	72	71	507	3.06	72.43
+183=	Tenisha Brar	Novice	Alberta 5	75	73	71	69	72	73	74	507	1.84	72.43
+183=	Raymond Yuan		Berkeley 3	73	74	75	78	70	67	70	507	3.42	72.43
+186=	Maddy Gordon		Carleton 1	74	74	74	68	65	74	77	506	3.88	72.29
+186=	Kaylie Precepa	Novice	Carleton 3	73	73	76	74	70	71	69	506	2.25	72.29
+186=	Menooha Koneru	Novice	Calgary 5	77	71	73	74	69	70	72	506	2.49	72.29
+189=	Briana Reyes	Novice	HWS 2	74	75	77	67	69	69	74	505	3.48	72.14
+189=	Brandon Lu	Novice	UBC 4	70	77	72	72	75	73	66	505	3.27	72.14
+191	Prithul Hia		Calgary 2	76	76	75	74	67	66	70	504	3.96	72.00
+192	Jarod Chiasson	Novice	Alberta 6	74	74	74	66	71	72	72	503	2.64	71.86
+193	Cole Jerum	Novice	Rochester 2	72	76	76	73	72	60	73	502	5.03	71.71
+194=	Kyla Silva		Carleton 1	73	74	72	68	64	74	76	501	3.85	71.57
+194=	Elijah Nepomuceno	Novice	Swarthmore 1	75	76	77	66	65	72	70	501	4.44	71.57
+194=	Daisy Dyck	Novice	Alberta 6	75	73	74	66	71	71	71	501	2.72	71.57
+194=	Aaryan Jogina	Novice	UBC 4	68	76	71	69	74	75	68	501	3.16	71.57
+198	Julianna Thornburg	Novice	HWS 3	70	76	72	68	77	69	66	498	3.80	71.14
+199=	John Hanson		Colby 1	68	74	68	73	68	76	69	496	3.14	70.86
+199=	Jasmine Goncalves		HWS 1	77	72	71	74	71	68	63	496	4.12	70.86
+201	Richie Lu	Novice	Columbia 3	75	72	67	70	69	71	69	493	2.38	70.43
+202	Thuy Khuc		Colby 1	68	74	68	70	66	75	70	491	3.04	70.14
+203	Sasha Zory	Novice	HWS 1	76	71	71	72	72	65	63	490	4.14	70.00
+204	Miguel Sharif	Novice	Calgary 5	75	67	72	72	64	66	72	488	3.73	69.71
+205	Anissa Basu	Novice	Columbia 3	76	71	67	68	68	72	65	487	3.42	69.57
+206	Johnny Bewley		HWS 6	73	72	74	69	71	65	62	486	4.10	69.43
+207	Jaden Haywood	Novice	HWS 6	73	72	74	70	69	64	62	484	4.22	69.14
+208	Clement Tsao	Novice	Pennsylvania 1	77	—	79	79	81	82	80	478	1.60	79.67
+209=	Jonathan Chen		Chicago 1	—	74	80	80	81	81	81	477	2.50	79.50
+209=	John Wu	Novice	Pennsylvania 1	77	—	79	79	81	81	80	477	1.38	79.50
+211	Feifei Mei		Chicago 1	—	74	79	80	80	81	80	474	2.31	79.00
+212	Griffin Wong		Calgary 1	79	75	—	80	75	78	81	468	2.31	78.00
+213	Diego Castillo		Brown 1	77	—	78	79	80	74	76	464	1.97	77.33
+214	Teotihuacan		Swing 1	78	—	80	67	81	75	79	460	4.71	76.67
+215	Amy Ma	Novice	Chicago 2	—	78	78	78	78	76	71	459	2.57	76.50
+216	Jason Shan		Brown 1	77	—	74	77	79	73	75	455	2.03	75.83
+217	Brandon Zhang		Hart House 5	80	—	75	70	74	74	79	452	3.35	75.33
+218=	Gavin An	Novice	Chicago 2	—	77	77	77	76	74	69	450	2.89	75.00
+218=	William Shi		Hart House 5	78	—	76	70	75	73	78	450	2.83	75.00
+220	El Zocalo		Swing 1	78	—	77	68	80	—	79	382	4.32	76.40
+221	James Masson	Novice	Yale 3	77	76	78	73	—	75	—	379	1.72	75.80
+222	Annmaria Antony		Stanford 3	74	79	77	77	—	—	—	307	1.79	76.75
+223	Chichén Itzá		Swing 2	75	—	—	—	77	78	74	304	1.58	76.00
+224	Akaash Kolluri		Stanford 3	74	77	75	76	—	—	—	302	1.12	75.50
+225	Fiona Bray	Novice	Princeton 7	76	76	74	67	—	—	—	293	3.70	73.25
+226	San Miguelito		Swing 2	75	—	—	—	—	77	72	224	2.05	74.67
+227	Teatro Degollado		Swing 3	77	—	—	—	—	—	—	77	0.00	77.00
+228	Glorieta Chapalita		Swing 3	76	—	—	—	—	—	—	76	0.00	76.00
