@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import glob
 import copy
+import os
 from collections import Counter
 from unidecode import unidecode
 
@@ -83,7 +84,7 @@ def create_team2teamid(tourn_id):
 
 def clean_speaker_df(sdf, all_speakers=None):
 	# Correctly process names: replace two periods with one
-	sdf = sdf.loc[sdf['name'].notnull()]
+	sdf = sdf.loc[sdf['name'].notnull()].copy()
 	si = sdf.index
 	sdf['name'] = sdf['name'].str.lower()
 	sdf['name'] = sdf['name'].str.replace("  ", " ")
@@ -117,6 +118,7 @@ def create_global_speaker_list(tournaments):
 	for code in codes:
 		# load and clean
 		tourndir = f"../data/{code}/raw/"
+		print(f"Reading speakers from {tourndir}.")
 		sdf = pd.read_csv(tourndir + "speakers.csv", sep='\t')
 		sdf = clean_speaker_df(sdf)
 
@@ -125,7 +127,7 @@ def create_global_speaker_list(tournaments):
 		if np.any(dup_flags):
 			print(f"\nAt {code}, some duplicated speaker names:\n{sdf.loc[dup_flags]}")
 			print("By default, treating all of these as the same person.")
-			sdf = sdf.loc[~sdf.duplicated("name", keep='first')]
+			sdf = sdf.loc[~sdf.duplicated("name", keep='first')].copy()
 
 		# Add names
 		names += sdf['name'].tolist()
@@ -253,15 +255,20 @@ def process_rounds_data(tournaments, all_speakers, all_speaks):
 			round_number = rfile.split("round")[-1].split(".csv")[0]
 			if is_float(round_number):
 				rdf = pd.read_csv(rfile, sep='\t')
-				rdf = process_single_round(
-					rdf=rdf,
-					team2speakerid=team2speakerid,
-					team2teamid=team2teamid,
-					swing_id=swing_id,
-					all_speaks=all_speaks,
-					tourn_id=code,
-					round_number=round_number,
-				)
+				try:
+					rdf = process_single_round(
+						rdf=rdf,
+						team2speakerid=team2speakerid,
+						team2teamid=team2teamid,
+						swing_id=swing_id,
+						all_speaks=all_speaks,
+						tourn_id=code,
+						round_number=round_number,
+					)
+				except Exception as e:
+					print(f"Error processing round {round_number} at {code}: {e}")
+					print(f"rdf head: {rdf.head()}")
+					raise e					
 				rdf['tourn_id']= code
 				rdf['date'] = date
 				rdf['round_number'] = round_number
@@ -285,7 +292,7 @@ def process_speaker_data(tournaments, all_speakers):
 		# Load speaker data
 		tourndir = f"../data/{code}/raw/"
 		sdf = pd.read_csv(tourndir + "speakers.csv", sep='\t')
-		sdf = clean_speaker_df(sdf, all_speakers=all_speakers)
+		sdf = clean_speaker_df(sdf, all_speakers=all_speakers).copy()
 		sdf['tourn_id'] = code
 		sdf['team_id'] = sdf['team'].map(team2teamid)
 		sdf['team_id'] = sdf['team_id'].fillna(-1)
@@ -302,7 +309,7 @@ def process_speaker_data(tournaments, all_speakers):
 		if cl[0] == 'r' and is_float(cl.split('r')[-1]):
 			rel_cols.append(c)
 	sdf = sdf[rel_cols].melt(id_vars=ids, var_name='round', value_name='speaks')
-	sdf = sdf.loc[sdf['speaks'].notnull()]
+	sdf = sdf.loc[sdf['speaks'].notnull()].copy()
 	sdf['round'] = sdf['round'].apply(lambda x: x[1:]).astype(int)
 	sdf.to_csv("../data/combined/all_speaks.csv", index=False)
 	return sdf
@@ -326,4 +333,5 @@ def main():
 	process_rounds_data(tournaments, all_speakers, all_speaks)
 
 if __name__ == '__main__':
+	os.makedirs("../data/combined", exist_ok=True)
 	main()
