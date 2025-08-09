@@ -115,6 +115,7 @@ def create_global_speaker_list(tournaments):
 
 	# Collect all names
 	names = []
+	speaker_info = dict() # maps name to {'institution': [institutions], 'tournaments': [tournaments]}
 	for code in codes:
 		# load and clean
 		tourndir = f"../data/{code}/raw/"
@@ -131,6 +132,15 @@ def create_global_speaker_list(tournaments):
 
 		# Add names
 		names += sdf['name'].tolist()
+		for row in sdf.itertuples():
+			name = row.name
+			team = row.team
+			if name not in speaker_info:
+				speaker_info[name] = {'teams': set([team]), 'tournaments': set([code])}
+			else:
+				speaker_info[name]['teams'].add(team)
+				speaker_info[name]['tournaments'].add(code)
+		# set index and add
 		sdf.set_index("name", inplace=True)
 		sdfs[code] = sdf
 
@@ -141,6 +151,12 @@ def create_global_speaker_list(tournaments):
 	)
 	all_speakers.index.name = 'name'
 	all_speakers['id'] = np.arange(all_speakers.shape[0])
+	all_speakers['institution'] = all_speakers.index.map(
+		lambda x: speaker_info[x]['teams']
+	)
+	all_speakers['tournaments'] = all_speakers.index.map(
+		lambda x: speaker_info[x]['tournaments']
+	)
 	# # for future compatability
 	# cleaned_names = set(all_speakers.index.tolist())
 	# for code in codes:
